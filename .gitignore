@@ -1,0 +1,13 @@
+# Ignore log files
+#*.log
+
+# Ignore temporary files
+# temp/
+
+# Ignore build artifacts
+# build/
+# dist/
+
+# Ignore image and mask files
+2-DICOMS/
+dcm2nifti/

@@ -1,0 +1,8 @@
+Host Login-4
+    HostName argon-itf-login-4.hpc.uiowa.edu
+    User seyhosseini
+
+Host Argon-bx55
+    HostName argon-itf-bx55-04.hpc
+    User seyhosseini
+    ProxyJump Login-4

@@ -1,0 +1,27 @@
+$directory = "."  # Replace with the actual directory path
+
+# Get all the files in the directory
+$files = Get-ChildItem -Path $directory
+
+# Loop through each file and change the dates
+foreach ($file in $files) {
+    # Change the modified date
+    $file.LastWriteTime = Get-Date
+
+    # Change the creation date
+    $file.CreationTime = Get-Date
+    Write-Output $file
+}
+
+# Get all the files in the directory
+$files = Get-ChildItem -Path ".\labels"
+
+# Loop through each file and change the dates
+foreach ($file in $files) {
+    # Change the modified date
+    $file.LastWriteTime = Get-Date
+
+    # Change the creation date
+    $file.CreationTime = Get-Date
+    Write-Output $file
+}
