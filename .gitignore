@@ -11,3 +11,7 @@
 # Ignore image and mask files
 2-DICOMS/
 dcm2nifti/
+*.nii.gz
+*.nrrd
+*.png
+*.docx
