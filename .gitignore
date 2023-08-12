@@ -11,3 +11,5 @@
 # Ignore image and mask files
 2-DICOMS/
 dcm2nifti/
+
+.venv/
