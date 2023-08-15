@@ -16,3 +16,4 @@ dcm2nifti/
 *.png
 *.docx
 *.xlsx
+*.vtk
