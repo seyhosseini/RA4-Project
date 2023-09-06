@@ -8,3 +8,10 @@ clone the respoitory to documents/GitHub folder
 Switch branch 
 switch username (git config --get-all user.name "allysonkuhn")
 (git config --global user.email "allyson-kuhn@uiowa.edu")
+When pushing code or files to github add to end of commit ([AK#_]) after staging
+
+How to Push Changes to GitHub
+1. Save File
+2. Stage Change
+3. Commit Change
+4. Push to GitHub
