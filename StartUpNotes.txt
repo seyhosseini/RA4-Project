@@ -15,3 +15,12 @@ How to Push Changes to GitHub
 2. Stage Change
 3. Commit Change
 4. Push to GitHub
+
+Get access to files (images)
+Added a Network Location (\\lc-rs-store25.hpc.uiowa.edu\teamwork)
+Map to Network Drive (\\lc-rs-store25.hpc.uiowa.edu\teamwork\public_resources\RA4-Project) (Drive Name Z:)
+
+Access archived version of main word doc
+Case to use for poster figure (\\lc-rs-store25.hpc.uiowa.edu\teamwork\public_resources\RA4-Project)
+Download 3D Slicer
+Load Recentered Lungs and Airways as segmentations
