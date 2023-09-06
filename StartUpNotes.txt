@@ -1,0 +1,10 @@
+chat gpt (make account)
+open poster on powerpoint on desktop
+create github account with hawkid
+github allows you to have the latest version of your code online so it can be accessed anywhere
+download and install vscode
+download and install Git
+clone the respoitory to documents/GitHub folder
+Switch branch 
+switch username (git config --get-all user.name "allysonkuhn")
+(git config --global user.email "allyson-kuhn@uiowa.edu")
