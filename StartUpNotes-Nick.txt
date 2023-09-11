@@ -1,0 +1,11 @@
+We created a new GitHub account and added a new branch
+Joined Microsoft Teams
+Initiated add request for URES:3394. Still require instructor, advisor, and collegiate approval
+Downloaded VsCode
+Download Git. Cloned repository
+Steps to push code:
+	(1) Stage change
+	(2) Commit change (add notes abd [NM#])
+	(3) Push change to remote repository
+Associate username: git config --global user.name "moore25l"
+Associate email: git config --global user.email "nicholas-moore@uiowa.edu"
