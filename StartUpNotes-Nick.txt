@@ -9,3 +9,16 @@ Steps to push code:
 	(3) Push change to remote repository
 Associate username: git config --global user.name "moore25l"
 Associate email: git config --global user.email "nicholas-moore@uiowa.edu"
+Set branch to /nick
+Created ChatGPT account
+
+Get access to files (images)
+Added a Network Location: \\lc-rs-store25.hpc.uiowa.edu\teamwork
+Map to Network Drive: \\lc-rs-store25.hpc.uiowa.edu\teamwork\public_resources\RA4-Project (Drive Name Z:)
+
+Downloaded 3D Slicer
+Blood circulation:
+	(1) Deoxygenated blood delivered to heart through vena cava
+	(2) Heart pumps deoxygenated blood to lungs
+	(3) Blood becomes oxygenated and is transferred back to heart
+	(4) Blood is pumped from heart through the aorta to circulation
