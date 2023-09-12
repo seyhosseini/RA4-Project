@@ -1,12 +1,12 @@
 chat gpt (make account)
-open poster on powerpoint on desktop
-create github account with hawkid
+open poster on powerpoint on desktop (shared in email)
+create github account with hawkid (make a branch for nick off of master?)
 github allows you to have the latest version of your code online so it can be accessed anywhere
 download and install vscode
 download and install Git
-clone the respoitory to documents/GitHub folder
+clone the respoitory to documents/GitHub folder (https://github.com/seyhosseini/RA4-Project)
 Switch branch 
-switch username (git config --get-all user.name "allysonkuhn")
+switch username (git config --global user.name "allysonkuhn")
 (git config --global user.email "allyson-kuhn@uiowa.edu")
 When pushing code or files to github add to end of commit ([AK#_]) after staging
 
@@ -20,7 +20,11 @@ Get access to files (images)
 Added a Network Location (\\lc-rs-store25.hpc.uiowa.edu\teamwork)
 Map to Network Drive (\\lc-rs-store25.hpc.uiowa.edu\teamwork\public_resources\RA4-Project) (Drive Name Z:)
 
-Access archived version of main word doc
-Case to use for poster figure (\\lc-rs-store25.hpc.uiowa.edu\teamwork\public_resources\RA4-Project)
+Access archived version of main word doc shared on email
+Case to use for poster figure (z:\E-Kelly-VidaSegmentals&Sublobes\2- 2AdditionalScans\Kelly Done\SPIROMICS-51287502)
 Download 3D Slicer
 Load Recentered Lungs and Airways as segmentations
+
+Update D1 with hours and short description of work done
+
+To open terminal ctrl + `
