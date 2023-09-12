@@ -1,4 +1,14 @@
-chat gpt (make account)
+D3) Brought Up Paper with 19 specific locations on the airway tree (On bookmarks bar)
+    Opened ZUNU_airwaysappendix excel file 
+
+    Used file (z:\E-Kelly-VidaSegmentals&Sublobes\2- 2AdditionalScans\Kelly Done\SPIROMICS-51287502\A1-Recentered) to remake the 
+    poster diagram with all 19 locations turned red and the rest of the airway tree as transparent yellow in Slicer
+
+
+
+
+
+D1-2) nchat gpt (make account)
 open poster on powerpoint on desktop (shared in email)
 create github account with hawkid (make a branch for nick off of master?)
 github allows you to have the latest version of your code online so it can be accessed anywhere
