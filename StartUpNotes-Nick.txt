@@ -7,9 +7,21 @@ Ran into issues in activating virtual environment. ALWAYS make sure you are inst
 
 Shortcut to run cell" Ctrl + Enter
 
+Nate's Image Creation code
+	In CaseImagesFinalDraft
+		(1) Shows middle coronal slice while preserving scale.
+		(2) Picks last s-final.nrrd, gets rid of M, then systematically visualizes it in a standard* fashion.     *3D visualization camera is set at an exact distance away from the trees. No need to change camera view 
+		(3) Shows the lungs and pulmonary artery tree
 
+		At the beginning, the code has functionality that traverses the entire "Done" images folder and picks the correct vx3's and s-final's.
+		One cell is for reading the files, one to find images, and another to write out to the word document.
 
+		Sorts through S-Segmentation (avm) files. There are many intermediates and one final (the last final) that is correct. Go through and compare each intermediate to the final, and create a word report of that. 90% Done
+		Still need to create word doc that shows incorrect avm trees along with the correct avm tree. Will only 3 columns. Case, avm#, and avf.
 
+		Had to install all import packages. Used ChatGPT to make sure each package was installed correctly.
+
+		Worked on simplifying code. Instead of traversing entire Done folder, just pick out the specific case files and use them. Left off on brainstorming ideas on how to avoid traversing through whole done folder.
 
 ///Day 1////////////////////////////////////////////////////////////////////////////////////////////
 
