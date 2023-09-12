@@ -17,8 +17,19 @@ Added a Network Location: \\lc-rs-store25.hpc.uiowa.edu\teamwork
 Map to Network Drive: \\lc-rs-store25.hpc.uiowa.edu\teamwork\public_resources\RA4-Project (Drive Name Z:)
 
 Downloaded 3D Slicer
+Viewer
+	Person looking towards us (left and right are switched)
 Blood circulation:
 	(1) Deoxygenated blood delivered to heart through vena cava
 	(2) Heart pumps deoxygenated blood to lungs
 	(3) Blood becomes oxygenated and is transferred back to heart
 	(4) Blood is pumped from heart through the aorta to circulation
+		From image we looked at, agent went from arm into vena cava into the heart then out into blue.
+Image Volume Proprties
+	Care about image dimensions, spacing, and the Scalar Range (pertaining to Attenuation Coefficient Hounsfield units. Air is ~-1024. Water ~0.).
+Volume View
+	vX3 take image of lungs, crop and upsampled (~0.7mm --> isotropic 0.38mm)
+
+Created Virtual Environment
+	Line: python -m venv venvnick
+	Made sure to ignore it in .gitignore

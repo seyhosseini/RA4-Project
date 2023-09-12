@@ -11,3 +11,6 @@
 # Ignore image and mask files
 2-DICOMS/
 dcm2nifti/
+
+#Ignore Virtual Environment
+venvnick/
