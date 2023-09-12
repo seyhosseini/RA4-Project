@@ -1,3 +1,18 @@
+///Day 2////////////////////////////////////////////////////////////////////////////////////////////
+Note: VsCode Terminal = Powershell NOT command prompt
+
+Ran into issues in activating virtual environment. ALWAYS make sure you are installing packages into venvnick. Resolved using the following lines of code:
+	(1) Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+	(2) .\venvnick\Scripts\Activate.ps1
+
+Shortcut to run cell" Ctrl + Enter
+
+
+
+
+
+///Day 1////////////////////////////////////////////////////////////////////////////////////////////
+
 We created a new GitHub account and added a new branch
 Joined Microsoft Teams
 Initiated add request for URES:3394. Still require instructor, advisor, and collegiate approval
@@ -20,13 +35,16 @@ Downloaded 3D Slicer
 Viewer
 	Person looking towards us (left and right are switched)
 Blood circulation:
-	(1) Deoxygenated blood delivered to heart through vena cava
-	(2) Heart pumps deoxygenated blood to lungs
-	(3) Blood becomes oxygenated and is transferred back to heart
+	(1) Deoxygenated blood delivered to heart through superior and inferior vena cava
+	(2) Heart pumps deoxygenated blood to lungs through pulmonary artery (blue) tree
+			MAIN PULMONARY ARTERY = Root            
+	(3) Blood becomes oxygenated and is transferred back to heart through pulmonary venous (red) tree
+			MAIN PULMONARY VEINS = Usually 4. Connects back to heart through several "roots" as opposed to 1 with the main pulmonary artery
 	(4) Blood is pumped from heart through the aorta to circulation
 		From image we looked at, agent went from arm into vena cava into the heart then out into blue.
 Image Volume Proprties
-	Care about image dimensions, spacing, and the Scalar Range (pertaining to Attenuation Coefficient Hounsfield units. Air is ~-1024. Water ~0.).
+	Load segmentation as volume itself
+	Care about image dimensions, spacing, and the Scalar Range (for CT images pertains to Attenuation Coefficient Hounsfield units. Air is ~-1024. Water ~0.)
 Volume View
 	vX3 take image of lungs, crop and upsampled (~0.7mm --> isotropic 0.38mm)
 
