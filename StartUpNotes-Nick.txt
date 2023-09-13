@@ -1,3 +1,24 @@
+///Day 3////////////////////////////////////////////////////////////////////////////////////////////
+Image Creation Code
+	TLC = Total Lung Capacity (Full inflation)			FRC = Functional Residual Capacity (Middle of full inspiration and full expiration)
+	*For ImageCreationCode, we are dealing with FRC files.
+	
+	.label and non-label files are similar. One is a segmentation and one is a label map.
+		Segmentation or s-Final ~ Segmentation file that might have any random order or number of segments including M.
+		Label map ~ Has taken original image and removes M (miscellaneous). This allows for scalar range to be 0, 1, or 2. Label is more standard while s-Final is nonstandard
+
+	Opening as segment vs volume
+		Segment ~
+		Volume ~
+
+	For path names, when storing prefixes utilize r"path".
+
+	Shortcut to bring up terminal: Ctrl + '~'
+
+Next:
+
+
+
 ///Day 2////////////////////////////////////////////////////////////////////////////////////////////
 Note: VsCode Terminal = Powershell NOT command prompt
 
@@ -5,7 +26,7 @@ Ran into issues in activating virtual environment. ALWAYS make sure you are inst
 	(1) Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 	(2) .\venvnick\Scripts\Activate.ps1
 
-Shortcut to run cell" Ctrl + Enter
+Shortcut to run cell: Ctrl + Enter
 
 Nate's Image Creation code
 	In CaseImagesFinalDraft
