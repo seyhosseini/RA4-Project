@@ -1,10 +1,22 @@
+D4) Finished Colored Poster Digram of 19 locations 
+
+Python Commands
+Run (ctrl enter)
+Comment (# or ctrl /)
+
+To check access to pip and python in terminal (python --version and pip --version)
+To make new virtual enviornment (python -m venv ./venvally)
+To stop VSCode from tracking changes go into gitignore (venvally/)
+
+To activate virtual enviornment (.\venvally\Scripts\Activate.ps1) and change vscode kernel at top right corner
+To install numpy (pip install numpy)
+
+
 D3) Brought Up Paper with 19 specific locations on the airway tree (On bookmarks bar)
     Opened ZUNU_airwaysappendix excel file 
 
     Used file (z:\E-Kelly-VidaSegmentals&Sublobes\2- 2AdditionalScans\Kelly Done\SPIROMICS-51287502\A1-Recentered) to remake the 
     poster diagram with all 19 locations turned red and the rest of the airway tree as transparent yellow in Slicer
-
-
 
 
 
