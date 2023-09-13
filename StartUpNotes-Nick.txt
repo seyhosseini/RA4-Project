@@ -1,3 +1,9 @@
+///Day 4////////////////////////////////////////////////////////////////////////////////////////////
+
+
+
+Next:
+
 ///Day 3////////////////////////////////////////////////////////////////////////////////////////////
 Image Creation Code
 	TLC = Total Lung Capacity (Full inflation)			FRC = Functional Residual Capacity (Middle of full inspiration and full expiration)
@@ -14,8 +20,28 @@ Image Creation Code
 	For path names, when storing prefixes utilize r"path".
 
 	Shortcut to bring up terminal: Ctrl + '~'
+	
+	Segmentation vs Model/vtk
+		Segmentation is a volume of values 0 and 1 while...
+		Model or vtk is a collection of edges and vertices, or a mesh, as a representation.
+		*For 3D representation, the vtk must be used.
 
-Next:
+		However, vtk conversion is not always needed EXCEPT when lungs and airways are involved.
+	Decimation
+		Use surface toolbox
+
+	Purpose
+		Using case 16, we want to write out into a file the lungs with arterial tree.
+		Start off with vasculature. Find the angle which looks at the center of mass from 60cm away.
+		One row and keep all of the columns.
+
+	Notes during troubleshooting:
+		Window levels describe the intensity range we want to map to the output image. It determines min and max pixel
+		values. -1204 in Hounsfield units is the lowest intensity and corresponds to air. 650 is the max and corresponds
+		with bone.
+
+		
+Next: Find issue with matplotlib inline, and continue looking into code.
 
 
 
