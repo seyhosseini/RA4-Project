@@ -1,4 +1,5 @@
 D4) Finished Colored Poster Digram of 19 locations 
+    Got everything set up on new computer
 
 Python Commands
 Run (ctrl enter)
