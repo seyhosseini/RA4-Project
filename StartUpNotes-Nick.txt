@@ -1,9 +1,29 @@
 ///Day 4////////////////////////////////////////////////////////////////////////////////////////////
+New goal - (1) Go into one of the cases
+	(2) Find the lung mask for FRC
+	(3) Use standard camera to show it.
+	(4) Final step is to use TLC (Will have to find)
+	(5) Later, we have the maps of the disease of the lung and we want to add to this visualization. !Create 3D lungs at TLC with disease map!
 
+	Substeps
+		(1) Load in lung at FRC
+		(2) Visualize using mayavi
+		(3) Convert values to either 0 or 1
+		(4) Find center of mass of the lungs together
+		(5) Visualize using standard camera pointing at center of mass from 600mm posterior. (Find code from Nate's)
+	
+	Start w border cases.
+Notes: 
+	If values are not 1 for object of interest, make them 1 when visualizing for contour to display in mayavi code.
+	For standard camera...
+		Need two vessels (A and V) find their center of mass collectively. Then go 600mm in posterior direction.
+		Also set FOV. Task 1: Display both lungs in the standard direction. (Problem: if it was just the vessels, we could have only added a couple more lines of code.
+		However, since we are using the lungs, we must convert the file to a vtk model.)
 
-
+		Normally, we cannot mix and match AV and the lungs due to different geometries because of upsampling of AV. However, Kelly's done folder contains one of the same geometry.
+		All AV files are on FRC. Will get access to TLC for this.
 Next:
-
+	Figure out FOV issue. Keep distance initialization if possible, but edit FOV so that we can fit each case into frame. Start w border cases.
 ///Day 3////////////////////////////////////////////////////////////////////////////////////////////
 Image Creation Code
 	TLC = Total Lung Capacity (Full inflation)			FRC = Functional Residual Capacity (Middle of full inspiration and full expiration)
@@ -41,7 +61,7 @@ Image Creation Code
 		with bone.
 
 		
-Next: Find issue with matplotlib inline, and continue looking into code.
+Next: Find issue with matplotlib inline, and continue looking into code. Try separating image loading to a different cell.
 
 
 
