@@ -1,3 +1,18 @@
+///Day 5////////////////////////////////////////////////////////////////////////////////////////////
+Notes:
+	Changed lungs object from a volume to a 3D contour which fixed issue with not being able to set the opacity
+	Ran into an issue with image. Center of mass and distance seems to be derived correctly, but image is still
+	not consistent with Nate's. Checking to see if this is possibly due to a difference in 3D dimensions.
+
+
+Next:  
+	After setting color and opacity, save image. Make camera identical to Nate's. 
+	Create dummy 3D disease map for self.
+	Lung map has values 0, 1, 2, 3, and 4.
+	Get lung WITH airways at TLC instead of FRC (smaller).
+	Airway color should correspond to dysanapsis (how small or large the airway is between 0 and 1). E.g. high is red, intermediate is orange, low is yellow.
+	Put into word report.
+	Fix issue with possible difference in voxels
 ///Day 4////////////////////////////////////////////////////////////////////////////////////////////
 New goal - (1) Go into one of the cases
 	(2) Find the lung mask for FRC
