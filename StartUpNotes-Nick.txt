@@ -12,6 +12,10 @@ Next:
 	Airway color should correspond to dysanapsis (how small or large the airway is between 0 and 1). E.g. high is red, intermediate is orange, low is yellow.
 	Put into word report.
 
+	Gaussian Mixture Model
+		Imagine 0 or 2 as possible values. 2 is disease distributed somewhere. You can ask Chat GPT to model this with two gaussians at two centers.
+		Input is the field of 0s and 2s. Outputs two centers and two sigmas or two sigma covariance matrices.
+
 ///Day 5////////////////////////////////////////////////////////////////////////////////////////////
 Notes:
 	Changed lungs object from a volume to a 3D contour which fixed issue with not being able to set the opacity
