@@ -1,3 +1,8 @@
+///Day 7////////////////////////////////////////////////////////////////////////////////////////////
+	Using volume rendering and mayavi. Place 3 dummy gaussian distributions somewhere on the map.
+	Start just with 1. Fix issue where distribution is not tight enough. Too large of spread.
+
+
 ///Day 6////////////////////////////////////////////////////////////////////////////////////////////
 Notes:
 	Spacing fix had no luck. Still slightly zoomed in.
