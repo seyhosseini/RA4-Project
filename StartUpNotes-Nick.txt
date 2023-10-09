@@ -1,3 +1,39 @@
+///Day 11////////////////////////////////////////////////////////////////////////////////////////////
+	Notes:
+		To-do
+			(1) Write dummy lung map to word doc.
+			(2) Do real disease map.
+
+///Day 9////////////////////////////////////////////////////////////////////////////////////////////
+	Notes:
+		Combined all three gaussians into a volume successfully. 
+
+	Next:
+		(1) Take downsampled and bring to full resolution. DONE
+		(2) Three diseases. Each of them with three centers. 
+		(3) Play around with real disease map in slicer. 
+
+		Create function that makes testing centers easier?
+
+///Day 8////////////////////////////////////////////////////////////////////////////////////////////
+	Notes from Soheil: 
+		■ Nick let's see what happens if we hollow out the cubes 
+		■ Gaussians + volume rendering ? * 
+
+	Notes:
+		3 Centers for gaussians:
+			(1) (340, 350, 320)
+			(2) (300, 175, 220)
+			(3) (165, 235, 300)
+		Gaussian distributions complete. 2 things left:
+			Need volume rendering rather than contours. No more 0 and 2, we now have intermediate values.
+			Put all gaussians into one volume "If you have a gaussian mixture model, how to construct a volume with those gaussians."
+			"If you have a gmm how to visualize it?"
+	
+	Next:
+		Achieved volume render of gaussian distribution. Next - work on combining all three gaussians into one volume
+		and visualize it. 
+
 ///Day 7////////////////////////////////////////////////////////////////////////////////////////////
 	Using volume rendering and mayavi. Place 3 dummy gaussian distributions somewhere on the map.
 	Start just with 1. Fix issue where distribution is not tight enough. Too large of spread.

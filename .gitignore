@@ -14,3 +14,6 @@ dcm2nifti/
 
 #Ignore Virtual Environment
 venvnick/
+
+output.nrrd/
+output1.nrrd/
