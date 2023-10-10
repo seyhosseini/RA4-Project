@@ -4,6 +4,9 @@
 			(1) Write dummy lung map to word doc.
 			(2) Do real disease map.
 
+		Found reason behind failed commits. Output.nrrd file is too large for gitHub (> 100mb) or at least for 
+		our current settings. DO NOT COMMIT ANYMORE. Either change path to a different folder or just do not save.
+
 ///Day 9////////////////////////////////////////////////////////////////////////////////////////////
 	Notes:
 		Combined all three gaussians into a volume successfully. 
