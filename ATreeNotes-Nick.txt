@@ -1,0 +1,58 @@
+Don't do anything greyed out, blue numbers, or cycles
+If thing not made, make dirs
+Comment out graphartifactsfoldername
+
+Want to see nodes and edges numbers to decrease
+
+if 1000 cycles exist forget the case
+
+18 determine correct number of nodes
+
+Stop and make note if at 21 you don't get a tree
+
+@24 if root was incorrect, use plotly to find true root and use plotly to input it
+
+@28 keep track of orders. Order 6 should not have anymore than 1 or 2 but not 0. Also should decrease as order increases
+
+@33 When open mayavi viewer, move A-Seed around to good angle of it then hit save and save to file. Name AtreeScreenshot-TreePlot
+
+358 136 396
+
+68
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-68-Spiromics-47033198/Markups/88-Jensen/S-Final-2-label.nrrd
+36
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-36-Spiromics-53033207/Markups/88-Adam/S-Final-3-label.nrrd
+39
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-39-Spiromics-46387314/Markups/88-Jensen/S-Fnal-2-label.nrrd
+
+28
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-28-Spiromics-53901001/Markup/88-Jensen/S-Final-2-label.nrrd
+66
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-66-Spiromics-47961728/Markups/88-Nate/S-Final-1-label.nrrd
+65
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-65-Spromics-53017102/Markups/88-Jensen/S-Final-2-label.nrrd
+
+46
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-46-Spiromics-51186800/Markups/88-Jensen/S-Final-2-label.nrrd
+73
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-73-Spiromics-51175428/Markups/88-Nate/S-Final-1-label.nrrd
+67
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-67-Spiromics-53044223/Markups/88-Adam/S-Final-2-label.nrrd
+
+84
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-84-Spiromics-53053170/Markups/88-Nate/S-Final-1-label.nrrd
+77
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-77-Spiromics-53851415/Markups/88-Nate/S-Final-1-label.nrrd
+54
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-54-Spiromics-46729161/Markup/88-Jensen/S-Final-2-label.nrrd
+
+30
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-30-Spiromics-46974609/Markups/88-Jensen/S-Final-2-label.nrrd
+29
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-29-Spiromics-47117390/Markups/88-Adam/S-Final-2-label.nrrd
+60
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-60-Spiromics-51266545/Markups/88-Jensen/S-Final-2-label.nrrd
+
+
+
+Manual tuple not working?
