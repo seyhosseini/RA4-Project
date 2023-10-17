@@ -41,6 +41,7 @@ Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-67-Spiromic
 
 84
 Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-84-Spiromics-53053170/Markups/88-Nate/S-Final-1-label.nrrd
+---------------------------------------------STOPPED HERE 10/16--------------------------------------------------
 77
 Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-77-Spiromics-53851415/Markups/88-Nate/S-Final-1-label.nrrd
 54
