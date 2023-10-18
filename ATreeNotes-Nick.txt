@@ -42,18 +42,19 @@ Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-67-Spiromic
 84
 Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-84-Spiromics-53053170/Markups/88-Nate/S-Final-1-label.nrrd
 ---------------------------------------------STOPPED HERE 10/16--------------------------------------------------
-77
-Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-77-Spiromics-53851415/Markups/88-Nate/S-Final-1-label.nrrd
-54
-Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-54-Spiromics-46729161/Markup/88-Jensen/S-Final-2-label.nrrd
-
-30
-Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-30-Spiromics-46974609/Markups/88-Jensen/S-Final-2-label.nrrd
-29
-Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-29-Spiromics-47117390/Markups/88-Adam/S-Final-2-label.nrrd
-60
-Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-60-Spiromics-51266545/Markups/88-Jensen/S-Final-2-label.nrrd
-
-
+72
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-72-Spiromics-46735722/Markups/88-Adam/S-Final-2-label.nrrd
+48
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-48-Spiromics-53074965/Markups/88-Adam/S-Final-2-label.nrrd
+86
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-86-Spiromics-45334527/Markups/88-Jensen/S-Final-4-labeL.nrrd
+59
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-59-Spiromics-44556786/Markups/88-Nate/S-Final-1-label.nrrd
+64
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-64-Spiromics-51235240/Markups/88-Jensen/S-Final-2-label.nrrd
+63
+Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-63-Spiromics-46960614/Markups/88-Nate/S-Final-1-label.nrrd
 
 Manual tuple not working?
+
+Name edge error visualization as EdgeErrors
