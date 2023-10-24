@@ -1,0 +1,24 @@
+10/19 ATS Help Improve Graph Code
+
+dajiska's method?
+
+5 Routes Possible
+    (1) Breadth-First Search (BFS):
+        Pros: Guarantees the shortest path if all edges have the same weight
+        Cons: Might require a lot of memory if the graph is large
+
+    (2) Depth-First Search (DFS):
+        Pros: Use less memory than BFS and can be more memory-efficient if the graph is very large and the solution path is deep
+        Cons: Doesn't guarantee the shortest path
+
+    (3) Dijkstra's Algorithm:
+        Pros: Guarantees the shortest path for weighted graphs
+        Cons: Slower on large graphs compared to BFS and DFS
+
+    (4) A*:
+        Pros: Efficient and optimal if a good heuristic is used
+        Cons: Efficiency depends on the quality of the heuristic function
+    
+    (5) Bidirectional Search:
+        Pros: Often faster than traditional algorithms
+        Cons: Requires additional bookkeeping to ensure correctness
