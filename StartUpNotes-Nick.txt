@@ -1,3 +1,21 @@
+///Day 13////////////////////////////////////////////////////////////////////////////////////////////
+10/24
+	Notes
+		give code using itk
+			ex:
+				itk.getspacing()
+				itk.physicalpointtoindex() - given an image with an origin, orientation, space, and size, we can
+											pick an index like 0, 0, 0 and find the physical coordinates.
+				itk.resampleimagefilter() - takes an image
+				scikit-image (Name of package)
+		orientation is all the same, only playing around origin, spacing, and size
+		We have many segments with various geometries. We can't show differing geometries in mayavi at once.
+		We want to be able to take one of them and bring it to the space of the other. Think about the complexities
+		as the two images may just partially overlap. Function should take in two images and return the second image
+		in the same geometry as the first.
+		
+		
+
 ///Day 12////////////////////////////////////////////////////////////////////////////////////////////
 	Notes:
 		Figured out how to write to word doc. Added my first dummy disease map to the doc. 
