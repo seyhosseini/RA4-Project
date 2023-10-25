@@ -1,0 +1,53 @@
+D4) Finished Colored Poster Digram of 19 locations 
+    Got everything set up on new computer 
+
+Python Commands
+Run (ctrl enter)
+Comment (# or ctrl /)
+
+To check access to pip and python in terminal (python --version and pip --version)
+To make new virtual enviornment (python -m venv ./venvally)
+To stop VSCode from tracking changes go into gitignore (venvally/)
+
+To activate virtual enviornment (.\venvally\Scripts\Activate.ps1) and change vscode kernel at top right corner
+To install numpy (pip install numpy)
+
+
+D3) Brought Up Paper with 19 specific locations on the airway tree (On bookmarks bar)
+    Opened ZUNU_airwaysappendix excel file 
+
+    Used file (z:\E-Kelly-VidaSegmentals&Sublobes\2- 2AdditionalScans\Kelly Done\SPIROMICS-51287502\A1-Recentered) to remake the 
+    poster diagram with all 19 locations turned red and the rest of the airway tree as transparent yellow in Slicer
+
+
+
+D1-2) nchat gpt (make account)
+open poster on powerpoint on desktop (shared in email)
+create github account with hawkid (make a branch for nick off of master?)
+github allows you to have the latest version of your code online so it can be accessed anywhere
+download and install vscode
+download and install Git
+clone the respoitory to documents/GitHub folder (https://github.com/seyhosseini/RA4-Project)
+Switch branch 
+switch username (git config --global user.name "allysonkuhn")
+(git config --global user.email "allyson-kuhn@uiowa.edu")
+When pushing code or files to github add to end of commit ([AK#_]) after staging
+
+How to Push Changes to GitHub
+1. Save File
+2. Stage Change
+3. Commit Change
+4. Push to GitHub
+
+Get access to files (images)
+Added a Network Location (\\lc-rs-store25.hpc.uiowa.edu\teamwork)
+Map to Network Drive (\\lc-rs-store25.hpc.uiowa.edu\teamwork\public_resources\RA4-Project) (Drive Name Z:)
+
+Access archived version of main word doc shared on email
+Case to use for poster figure (z:\E-Kelly-VidaSegmentals&Sublobes\2- 2AdditionalScans\Kelly Done\SPIROMICS-51287502)
+Download 3D Slicer
+Load Recentered Lungs and Airways as segmentations
+
+Update D1 with hours and short description of work done
+
+To open terminal ctrl + `
