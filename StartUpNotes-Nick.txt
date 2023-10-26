@@ -1,7 +1,17 @@
+///Day 14////////////////////////////////////////////////////////////////////////////////////////////
+10/26
+	Notes:
+		For interpolation use B-spline, airway resampled to arterial tree.
+		Take airways and resample it using the arterial tree's origin, spacing, and size.
+
+		Resample itk filter in 3D Slicer 
+
+
+
 ///Day 13////////////////////////////////////////////////////////////////////////////////////////////
 10/24
-	Notes
-		give code using itk
+	Notes:
+		Give code using itk
 			ex:
 				itk.getspacing()
 				itk.physicalpointtoindex() - given an image with an origin, orientation, space, and size, we can
@@ -13,8 +23,13 @@
 		We want to be able to take one of them and bring it to the space of the other. Think about the complexities
 		as the two images may just partially overlap. Function should take in two images and return the second image
 		in the same geometry as the first.
-		
-		
+
+Airways, original geometry, has not been manipulated:
+	Z:/E-Kelly-VidaSegmentals&Sublobes/3- 20Spiromics-10ForKelly-ForERS23/Case42-IA210257_H-17900_20190805_125316_20230524_121115_export/ZUNU_vida-airtree-recentered.nii.gz
+Arterial tree, upsampled geometry:
+	Z:/D-Images/SPIROMICS-SubStudy/2-Results-CheckedDoneTemp/1-Done/Case-42-Spiromics-67503688/Markups/88-Adam/S-Final-2-label.nrrd
+
+		NOTE: Slicer works in RAS (Right Anterior Superior) while everyone else works in LPS(Left Posterior Superior).
 
 ///Day 12////////////////////////////////////////////////////////////////////////////////////////////
 	Notes:
