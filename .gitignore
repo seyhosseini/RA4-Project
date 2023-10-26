@@ -12,3 +12,6 @@
 2-DICOMS/
 dcm2nifti/
 venvnick/
+venvally2/
+*.vtk
+*.nrrd
