@@ -13,3 +13,5 @@
 dcm2nifti/
 venvally/
 venvally2/
+*.vtk
+*.nrrd
