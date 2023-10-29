@@ -1,3 +1,15 @@
+///Day 15////////////////////////////////////////////////////////////////////////////////////////////
+10/29
+	Notes:
+		According to ChatGPT, you CANNOT read in an nrrd file using nibabel. Also, we CANNOT read in a nii.gz using nrrd.
+		This means we might have to do more research on how each package handles the file metadata to ensure we are 
+		being consistent.
+
+		According to ChatGPT, 3D Slicer reports in RAS (Right Anterior Superior)
+		nibabel reports in RAS as well
+		pynrrd does NOT have a default it reports in (according to ChatGPT), however it appears to be LPS in VsCode
+		itk appears to be LPS as well.
+
 ///Day 14////////////////////////////////////////////////////////////////////////////////////////////
 10/26
 	Notes:
@@ -5,8 +17,6 @@
 		Take airways and resample it using the arterial tree's origin, spacing, and size.
 
 		Resample itk filter in 3D Slicer 
-
-
 
 ///Day 13////////////////////////////////////////////////////////////////////////////////////////////
 10/24
