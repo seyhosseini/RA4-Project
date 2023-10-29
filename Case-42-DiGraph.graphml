@@ -1,0 +1,1091 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d0" for="edge" attr.name="AvgDiameter" attr.type="float" />
+  <graph edgedefault="directed">
+    <node id="(428, 196, 327)" />
+    <node id="(410, 284, 364)" />
+    <node id="(452, 338, 379)" />
+    <node id="(463, 345, 379)" />
+    <node id="(493, 347, 409)" />
+    <node id="(498, 347, 416)" />
+    <node id="(528, 384, 452)" />
+    <node id="(519, 397, 469)" />
+    <node id="(572, 414, 494)" />
+    <node id="(498, 343, 426)" />
+    <node id="(532, 337, 511)" />
+    <node id="(536, 330, 507)" />
+    <node id="(536, 338, 519)" />
+    <node id="(528, 338, 555)" />
+    <node id="(544, 347, 523)" />
+    <node id="(483, 353, 476)" />
+    <node id="(474, 328, 540)" />
+    <node id="(475, 365, 486)" />
+    <node id="(457, 367, 501)" />
+    <node id="(476, 379, 493)" />
+    <node id="(524, 392, 415)" />
+    <node id="(508, 363, 361)" />
+    <node id="(510, 365, 360)" />
+    <node id="(519, 372, 354)" />
+    <node id="(529, 376, 336)" />
+    <node id="(549, 335, 307)" />
+    <node id="(544, 331, 260)" />
+    <node id="(557, 322, 299)" />
+    <node id="(560, 319, 301)" />
+    <node id="(560, 316, 294)" />
+    <node id="(574, 307, 277)" />
+    <node id="(561, 315, 295)" />
+    <node id="(562, 287, 291)" />
+    <node id="(590, 289, 285)" />
+    <node id="(538, 388, 304)" />
+    <node id="(538, 425, 279)" />
+    <node id="(559, 462, 274)" />
+    <node id="(587, 529, 230)" />
+    <node id="(587, 568, 213)" />
+    <node id="(598, 534, 225)" />
+    <node id="(594, 509, 287)" />
+    <node id="(595, 533, 278)" />
+    <node id="(605, 516, 293)" />
+    <node id="(540, 441, 249)" />
+    <node id="(534, 458, 227)" />
+    <node id="(509, 454, 172)" />
+    <node id="(540, 506, 176)" />
+    <node id="(520, 519, 120)" />
+    <node id="(540, 527, 172)" />
+    <node id="(532, 544, 172)" />
+    <node id="(571, 557, 161)" />
+    <node id="(563, 460, 189)" />
+    <node id="(529, 410, 166)" />
+    <node id="(566, 469, 172)" />
+    <node id="(554, 447, 147)" />
+    <node id="(615, 516, 136)" />
+    <node id="(571, 386, 264)" />
+    <node id="(582, 397, 252)" />
+    <node id="(582, 396, 249)" />
+    <node id="(585, 350, 202)" />
+    <node id="(561, 343, 159)" />
+    <node id="(683, 259, 160)" />
+    <node id="(652, 409, 170)" />
+    <node id="(673, 473, 147)" />
+    <node id="(694, 396, 165)" />
+    <node id="(593, 411, 257)" />
+    <node id="(622, 440, 235)" />
+    <node id="(662, 499, 192)" />
+    <node id="(673, 450, 227)" />
+    <node id="(634, 447, 288)" />
+    <node id="(639, 446, 294)" />
+    <node id="(641, 456, 286)" />
+    <node id="(609, 373, 268)" />
+    <node id="(650, 388, 280)" />
+    <node id="(674, 341, 234)" />
+    <node id="(684, 347, 237)" />
+    <node id="(713, 281, 200)" />
+    <node id="(522, 392, 361)" />
+    <node id="(500, 435, 380)" />
+    <node id="(495, 500, 394)" />
+    <node id="(485, 458, 419)" />
+    <node id="(464, 473, 459)" />
+    <node id="(501, 480, 453)" />
+    <node id="(526, 403, 358)" />
+    <node id="(526, 414, 356)" />
+    <node id="(510, 450, 322)" />
+    <node id="(504, 478, 279)" />
+    <node id="(513, 507, 309)" />
+    <node id="(506, 540, 316)" />
+    <node id="(515, 511, 307)" />
+    <node id="(527, 554, 267)" />
+    <node id="(541, 567, 270)" />
+    <node id="(526, 563, 256)" />
+    <node id="(520, 568, 254)" />
+    <node id="(531, 567, 250)" />
+    <node id="(559, 559, 318)" />
+    <node id="(533, 458, 377)" />
+    <node id="(564, 499, 455)" />
+    <node id="(550, 514, 383)" />
+    <node id="(600, 459, 360)" />
+    <node id="(602, 473, 359)" />
+    <node id="(632, 461, 359)" />
+    <node id="(542, 337, 350)" />
+    <node id="(581, 239, 336)" />
+    <node id="(581, 231, 339)" />
+    <node id="(565, 136, 311)" />
+    <node id="(616, 178, 358)" />
+    <node id="(594, 228, 326)" />
+    <node id="(616, 313, 336)" />
+    <node id="(657, 284, 307)" />
+    <node id="(665, 345, 335)" />
+    <node id="(563, 373, 386)" />
+    <node id="(480, 317, 394)" />
+    <node id="(497, 238, 395)" />
+    <node id="(473, 129, 379)" />
+    <node id="(471, 129, 380)" />
+    <node id="(470, 130, 381)" />
+    <node id="(399, 84, 399)" />
+    <node id="(473, 106, 367)" />
+    <node id="(499, 237, 397)" />
+    <node id="(490, 218, 513)" />
+    <node id="(535, 192, 420)" />
+    <node id="(491, 315, 399)" />
+    <node id="(460, 193, 474)" />
+    <node id="(547, 321, 400)" />
+    <node id="(566, 342, 409)" />
+    <node id="(564, 347, 411)" />
+    <node id="(603, 360, 419)" />
+    <node id="(614, 363, 428)" />
+    <node id="(614, 364, 429)" />
+    <node id="(628, 359, 428)" />
+    <node id="(618, 380, 412)" />
+    <node id="(574, 305, 423)" />
+    <node id="(584, 298, 447)" />
+    <node id="(593, 281, 467)" />
+    <node id="(604, 321, 477)" />
+    <node id="(621, 279, 419)" />
+    <node id="(626, 270, 425)" />
+    <node id="(643, 276, 414)" />
+    <node id="(316, 310, 322)" />
+    <node id="(278, 310, 344)" />
+    <node id="(256, 329, 371)" />
+    <node id="(192, 294, 446)" />
+    <node id="(186, 260, 482)" />
+    <node id="(189, 296, 447)" />
+    <node id="(155, 294, 451)" />
+    <node id="(163, 341, 513)" />
+    <node id="(254, 332, 374)" />
+    <node id="(235, 366, 380)" />
+    <node id="(232, 376, 384)" />
+    <node id="(190, 420, 403)" />
+    <node id="(167, 450, 439)" />
+    <node id="(146, 466, 390)" />
+    <node id="(234, 429, 402)" />
+    <node id="(225, 463, 432)" />
+    <node id="(243, 437, 405)" />
+    <node id="(175, 377, 373)" />
+    <node id="(124, 386, 405)" />
+    <node id="(88, 382, 400)" />
+    <node id="(112, 396, 433)" />
+    <node id="(110, 411, 348)" />
+    <node id="(89, 425, 362)" />
+    <node id="(108, 415, 345)" />
+    <node id="(252, 331, 400)" />
+    <node id="(251, 330, 401)" />
+    <node id="(251, 331, 402)" />
+    <node id="(244, 328, 415)" />
+    <node id="(192, 398, 484)" />
+    <node id="(239, 321, 430)" />
+    <node id="(237, 302, 448)" />
+    <node id="(231, 334, 523)" />
+    <node id="(230, 333, 524)" />
+    <node id="(232, 348, 534)" />
+    <node id="(255, 370, 442)" />
+    <node id="(253, 394, 449)" />
+    <node id="(290, 382, 506)" />
+    <node id="(245, 288, 345)" />
+    <node id="(235, 264, 341)" />
+    <node id="(217, 204, 311)" />
+    <node id="(206, 201, 310)" />
+    <node id="(129, 140, 292)" />
+    <node id="(202, 206, 311)" />
+    <node id="(272, 46, 226)" />
+    <node id="(223, 220, 353)" />
+    <node id="(177, 170, 346)" />
+    <node id="(229, 183, 362)" />
+    <node id="(179, 146, 401)" />
+    <node id="(241, 160, 364)" />
+    <node id="(243, 144, 399)" />
+    <node id="(241, 142, 399)" />
+    <node id="(295, 122, 447)" />
+    <node id="(268, 118, 340)" />
+    <node id="(265, 113, 337)" />
+    <node id="(262, 110, 338)" />
+    <node id="(268, 106, 331)" />
+    <node id="(271, 117, 340)" />
+    <node id="(226, 291, 349)" />
+    <node id="(135, 277, 322)" />
+    <node id="(111, 259, 309)" />
+    <node id="(82, 242, 290)" />
+    <node id="(77, 240, 319)" />
+    <node id="(65, 319, 284)" />
+    <node id="(220, 298, 353)" />
+    <node id="(156, 286, 379)" />
+    <node id="(121, 302, 392)" />
+    <node id="(113, 301, 388)" />
+    <node id="(112, 310, 409)" />
+    <node id="(127, 247, 376)" />
+    <node id="(109, 225, 365)" />
+    <node id="(115, 237, 386)" />
+    <node id="(189, 307, 329)" />
+    <node id="(262, 320, 284)" />
+    <node id="(213, 264, 240)" />
+    <node id="(229, 271, 210)" />
+    <node id="(210, 260, 237)" />
+    <node id="(124, 169, 159)" />
+    <node id="(183, 163, 194)" />
+    <node id="(244, 331, 278)" />
+    <node id="(237, 336, 273)" />
+    <node id="(147, 274, 231)" />
+    <node id="(116, 270, 214)" />
+    <node id="(69, 291, 218)" />
+    <node id="(73, 237, 174)" />
+    <node id="(74, 213, 217)" />
+    <node id="(226, 367, 253)" />
+    <node id="(221, 378, 242)" />
+    <node id="(231, 376, 213)" />
+    <node id="(146, 340, 181)" />
+    <node id="(331, 376, 118)" />
+    <node id="(219, 382, 240)" />
+    <node id="(176, 412, 232)" />
+    <node id="(84, 410, 182)" />
+    <node id="(15, 319, 135)" />
+    <node id="(54, 448, 135)" />
+    <node id="(159, 432, 241)" />
+    <node id="(133, 451, 227)" />
+    <node id="(72, 446, 231)" />
+    <node id="(92, 505, 204)" />
+    <node id="(145, 448, 256)" />
+    <node id="(100, 479, 262)" />
+    <node id="(145, 462, 255)" />
+    <node id="(223, 408, 237)" />
+    <node id="(148, 512, 156)" />
+    <node id="(239, 447, 222)" />
+    <node id="(243, 453, 216)" />
+    <node id="(254, 534, 146)" />
+    <node id="(224, 570, 107)" />
+    <node id="(266, 569, 107)" />
+    <node id="(279, 465, 191)" />
+    <node id="(216, 549, 200)" />
+    <node id="(214, 561, 188)" />
+    <node id="(206, 567, 182)" />
+    <node id="(221, 569, 177)" />
+    <node id="(209, 567, 206)" />
+    <node id="(240, 403, 266)" />
+    <node id="(282, 439, 252)" />
+    <node id="(281, 444, 253)" />
+    <node id="(325, 436, 204)" />
+    <node id="(230, 510, 270)" />
+    <node id="(181, 566, 276)" />
+    <node id="(248, 541, 272)" />
+    <node id="(239, 346, 293)" />
+    <node id="(208, 427, 304)" />
+    <node id="(161, 465, 301)" />
+    <node id="(208, 475, 322)" />
+    <node id="(204, 493, 336)" />
+    <node id="(210, 501, 322)" />
+    <node id="(264, 386, 303)" />
+    <node id="(291, 408, 294)" />
+    <node id="(271, 443, 319)" />
+    <node id="(264, 509, 353)" />
+    <node id="(274, 446, 327)" />
+    <edge source="(428, 196, 327)" target="(410, 284, 364)">
+      <data key="d0">28.396552109780423</data>
+    </edge>
+    <edge source="(410, 284, 364)" target="(452, 338, 379)">
+      <data key="d0">31.18411281886966</data>
+    </edge>
+    <edge source="(410, 284, 364)" target="(316, 310, 322)">
+      <data key="d0">27.199308091312265</data>
+    </edge>
+    <edge source="(452, 338, 379)" target="(463, 345, 379)">
+      <data key="d0">28.330381266606274</data>
+    </edge>
+    <edge source="(452, 338, 379)" target="(480, 317, 394)">
+      <data key="d0">19.41216851611703</data>
+    </edge>
+    <edge source="(463, 345, 379)" target="(493, 347, 409)">
+      <data key="d0">15.234323977213375</data>
+    </edge>
+    <edge source="(463, 345, 379)" target="(508, 363, 361)">
+      <data key="d0">24.13456940608163</data>
+    </edge>
+    <edge source="(493, 347, 409)" target="(498, 347, 416)">
+      <data key="d0">8.782536386876373</data>
+    </edge>
+    <edge source="(493, 347, 409)" target="(524, 392, 415)">
+      <data key="d0">3.558919393920543</data>
+    </edge>
+    <edge source="(498, 347, 416)" target="(528, 384, 452)">
+      <data key="d0">4.787233834216658</data>
+    </edge>
+    <edge source="(498, 347, 416)" target="(498, 343, 426)">
+      <data key="d0">7.23612268481771</data>
+    </edge>
+    <edge source="(528, 384, 452)" target="(519, 397, 469)">
+      <data key="d0">2.642053443234913</data>
+    </edge>
+    <edge source="(528, 384, 452)" target="(572, 414, 494)">
+      <data key="d0">3.4629615403645078</data>
+    </edge>
+    <edge source="(498, 343, 426)" target="(532, 337, 511)">
+      <data key="d0">4.504068511987479</data>
+    </edge>
+    <edge source="(498, 343, 426)" target="(483, 353, 476)">
+      <data key="d0">4.874119656887189</data>
+    </edge>
+    <edge source="(532, 337, 511)" target="(536, 330, 507)">
+      <data key="d0">3.621298001930721</data>
+    </edge>
+    <edge source="(532, 337, 511)" target="(536, 338, 519)">
+      <data key="d0">4.335079432529796</data>
+    </edge>
+    <edge source="(536, 338, 519)" target="(528, 338, 555)">
+      <data key="d0">2.8152944904079575</data>
+    </edge>
+    <edge source="(536, 338, 519)" target="(544, 347, 523)">
+      <data key="d0">3.049089668628441</data>
+    </edge>
+    <edge source="(483, 353, 476)" target="(474, 328, 540)">
+      <data key="d0">3.904961599558961</data>
+    </edge>
+    <edge source="(483, 353, 476)" target="(475, 365, 486)">
+      <data key="d0">3.55989488210546</data>
+    </edge>
+    <edge source="(475, 365, 486)" target="(457, 367, 501)">
+      <data key="d0">2.72929392215504</data>
+    </edge>
+    <edge source="(475, 365, 486)" target="(476, 379, 493)">
+      <data key="d0">2.5089666631694008</data>
+    </edge>
+    <edge source="(508, 363, 361)" target="(510, 365, 360)">
+      <data key="d0">20.44411208593344</data>
+    </edge>
+    <edge source="(508, 363, 361)" target="(563, 373, 386)">
+      <data key="d0">5.8300890787797925</data>
+    </edge>
+    <edge source="(510, 365, 360)" target="(519, 372, 354)">
+      <data key="d0">19.688453074900043</data>
+    </edge>
+    <edge source="(510, 365, 360)" target="(542, 337, 350)">
+      <data key="d0">13.35274488358399</data>
+    </edge>
+    <edge source="(519, 372, 354)" target="(529, 376, 336)">
+      <data key="d0">15.691195115069613</data>
+    </edge>
+    <edge source="(519, 372, 354)" target="(522, 392, 361)">
+      <data key="d0">15.70129970897606</data>
+    </edge>
+    <edge source="(529, 376, 336)" target="(549, 335, 307)">
+      <data key="d0">8.150337041495531</data>
+    </edge>
+    <edge source="(529, 376, 336)" target="(538, 388, 304)">
+      <data key="d0">14.063811061605108</data>
+    </edge>
+    <edge source="(549, 335, 307)" target="(544, 331, 260)">
+      <data key="d0">2.9043391979360917</data>
+    </edge>
+    <edge source="(549, 335, 307)" target="(557, 322, 299)">
+      <data key="d0">5.835111248271361</data>
+    </edge>
+    <edge source="(557, 322, 299)" target="(560, 319, 301)">
+      <data key="d0">4.647158212832171</data>
+    </edge>
+    <edge source="(557, 322, 299)" target="(560, 316, 294)">
+      <data key="d0">4.787918196941646</data>
+    </edge>
+    <edge source="(560, 316, 294)" target="(574, 307, 277)">
+      <data key="d0">3.601995662048773</data>
+    </edge>
+    <edge source="(560, 316, 294)" target="(561, 315, 295)">
+      <data key="d0">5.0</data>
+    </edge>
+    <edge source="(561, 315, 295)" target="(562, 287, 291)">
+      <data key="d0">2.9789295759420473</data>
+    </edge>
+    <edge source="(561, 315, 295)" target="(590, 289, 285)">
+      <data key="d0">3.2436089301654194</data>
+    </edge>
+    <edge source="(538, 388, 304)" target="(538, 425, 279)">
+      <data key="d0">9.318840970869683</data>
+    </edge>
+    <edge source="(538, 388, 304)" target="(571, 386, 264)">
+      <data key="d0">11.39170143536717</data>
+    </edge>
+    <edge source="(538, 425, 279)" target="(559, 462, 274)">
+      <data key="d0">6.0725399526832025</data>
+    </edge>
+    <edge source="(538, 425, 279)" target="(540, 441, 249)">
+      <data key="d0">9.295043203257427</data>
+    </edge>
+    <edge source="(559, 462, 274)" target="(587, 529, 230)">
+      <data key="d0">4.045519133392229</data>
+    </edge>
+    <edge source="(559, 462, 274)" target="(594, 509, 287)">
+      <data key="d0">3.6177266404319393</data>
+    </edge>
+    <edge source="(587, 529, 230)" target="(587, 568, 213)">
+      <data key="d0">2.619892379691503</data>
+    </edge>
+    <edge source="(587, 529, 230)" target="(598, 534, 225)">
+      <data key="d0">3.6880734727919133</data>
+    </edge>
+    <edge source="(594, 509, 287)" target="(595, 533, 278)">
+      <data key="d0">2.481792379107946</data>
+    </edge>
+    <edge source="(594, 509, 287)" target="(605, 516, 293)">
+      <data key="d0">2.7192068215294958</data>
+    </edge>
+    <edge source="(540, 441, 249)" target="(534, 458, 227)">
+      <data key="d0">6.750237712944366</data>
+    </edge>
+    <edge source="(540, 441, 249)" target="(563, 460, 189)">
+      <data key="d0">7.088012787014895</data>
+    </edge>
+    <edge source="(534, 458, 227)" target="(509, 454, 172)">
+      <data key="d0">2.947793936705401</data>
+    </edge>
+    <edge source="(534, 458, 227)" target="(540, 506, 176)">
+      <data key="d0">5.715266516832614</data>
+    </edge>
+    <edge source="(540, 506, 176)" target="(520, 519, 120)">
+      <data key="d0">3.509295094146529</data>
+    </edge>
+    <edge source="(540, 506, 176)" target="(540, 527, 172)">
+      <data key="d0">4.67749101905937</data>
+    </edge>
+    <edge source="(540, 527, 172)" target="(532, 544, 172)">
+      <data key="d0">3.640931693568302</data>
+    </edge>
+    <edge source="(540, 527, 172)" target="(571, 557, 161)">
+      <data key="d0">3.4402179046091534</data>
+    </edge>
+    <edge source="(563, 460, 189)" target="(529, 410, 166)">
+      <data key="d0">3.072950556042823</data>
+    </edge>
+    <edge source="(563, 460, 189)" target="(566, 469, 172)">
+      <data key="d0">6.803734939616319</data>
+    </edge>
+    <edge source="(566, 469, 172)" target="(554, 447, 147)">
+      <data key="d0">4.249865480473996</data>
+    </edge>
+    <edge source="(566, 469, 172)" target="(615, 516, 136)">
+      <data key="d0">4.713424275988664</data>
+    </edge>
+    <edge source="(571, 386, 264)" target="(582, 397, 252)">
+      <data key="d0">10.54168451827012</data>
+    </edge>
+    <edge source="(571, 386, 264)" target="(609, 373, 268)">
+      <data key="d0">6.976842284382914</data>
+    </edge>
+    <edge source="(582, 397, 252)" target="(582, 396, 249)">
+      <data key="d0">10.2016890916471</data>
+    </edge>
+    <edge source="(582, 397, 252)" target="(593, 411, 257)">
+      <data key="d0">8.202315153845902</data>
+    </edge>
+    <edge source="(582, 396, 249)" target="(585, 350, 202)">
+      <data key="d0">6.2299120823919845</data>
+    </edge>
+    <edge source="(582, 396, 249)" target="(652, 409, 170)">
+      <data key="d0">5.234957413232169</data>
+    </edge>
+    <edge source="(585, 350, 202)" target="(561, 343, 159)">
+      <data key="d0">3.1448227165877323</data>
+    </edge>
+    <edge source="(585, 350, 202)" target="(683, 259, 160)">
+      <data key="d0">3.4444471785900515</data>
+    </edge>
+    <edge source="(652, 409, 170)" target="(673, 473, 147)">
+      <data key="d0">2.9821642330003018</data>
+    </edge>
+    <edge source="(652, 409, 170)" target="(694, 396, 165)">
+      <data key="d0">3.736565130548453</data>
+    </edge>
+    <edge source="(593, 411, 257)" target="(622, 440, 235)">
+      <data key="d0">4.643683065385142</data>
+    </edge>
+    <edge source="(593, 411, 257)" target="(634, 447, 288)">
+      <data key="d0">4.273533916867418</data>
+    </edge>
+    <edge source="(622, 440, 235)" target="(662, 499, 192)">
+      <data key="d0">2.947388193720806</data>
+    </edge>
+    <edge source="(622, 440, 235)" target="(673, 450, 227)">
+      <data key="d0">3.094803305137516</data>
+    </edge>
+    <edge source="(634, 447, 288)" target="(639, 446, 294)">
+      <data key="d0">2.9180221693009503</data>
+    </edge>
+    <edge source="(634, 447, 288)" target="(641, 456, 286)">
+      <data key="d0">2.91413825965165</data>
+    </edge>
+    <edge source="(609, 373, 268)" target="(650, 388, 280)">
+      <data key="d0">3.5014387432001968</data>
+    </edge>
+    <edge source="(609, 373, 268)" target="(674, 341, 234)">
+      <data key="d0">5.158057993044871</data>
+    </edge>
+    <edge source="(674, 341, 234)" target="(684, 347, 237)">
+      <data key="d0">3.3390696865707374</data>
+    </edge>
+    <edge source="(674, 341, 234)" target="(713, 281, 200)">
+      <data key="d0">3.192782106193418</data>
+    </edge>
+    <edge source="(522, 392, 361)" target="(500, 435, 380)">
+      <data key="d0">8.080919709424588</data>
+    </edge>
+    <edge source="(522, 392, 361)" target="(526, 403, 358)">
+      <data key="d0">11.807251066138042</data>
+    </edge>
+    <edge source="(500, 435, 380)" target="(495, 500, 394)">
+      <data key="d0">3.504987271871746</data>
+    </edge>
+    <edge source="(500, 435, 380)" target="(485, 458, 419)">
+      <data key="d0">4.417985332598704</data>
+    </edge>
+    <edge source="(485, 458, 419)" target="(464, 473, 459)">
+      <data key="d0">2.502882443771355</data>
+    </edge>
+    <edge source="(485, 458, 419)" target="(501, 480, 453)">
+      <data key="d0">2.7080030187237707</data>
+    </edge>
+    <edge source="(526, 403, 358)" target="(526, 414, 356)">
+      <data key="d0">10.715499357356272</data>
+    </edge>
+    <edge source="(526, 403, 358)" target="(600, 459, 360)">
+      <data key="d0">5.66423138655591</data>
+    </edge>
+    <edge source="(526, 414, 356)" target="(510, 450, 322)">
+      <data key="d0">6.649271554171623</data>
+    </edge>
+    <edge source="(526, 414, 356)" target="(533, 458, 377)">
+      <data key="d0">5.922484732933444</data>
+    </edge>
+    <edge source="(510, 450, 322)" target="(504, 478, 279)">
+      <data key="d0">3.064177508351453</data>
+    </edge>
+    <edge source="(510, 450, 322)" target="(513, 507, 309)">
+      <data key="d0">5.243019108829062</data>
+    </edge>
+    <edge source="(513, 507, 309)" target="(506, 540, 316)">
+      <data key="d0">2.8804287384149787</data>
+    </edge>
+    <edge source="(513, 507, 309)" target="(515, 511, 307)">
+      <data key="d0">5.0166900039207825</data>
+    </edge>
+    <edge source="(515, 511, 307)" target="(527, 554, 267)">
+      <data key="d0">3.4024654226093722</data>
+    </edge>
+    <edge source="(515, 511, 307)" target="(559, 559, 318)">
+      <data key="d0">3.1378632218275837</data>
+    </edge>
+    <edge source="(527, 554, 267)" target="(541, 567, 270)">
+      <data key="d0">2.542433079531483</data>
+    </edge>
+    <edge source="(527, 554, 267)" target="(526, 563, 256)">
+      <data key="d0">2.982162587006255</data>
+    </edge>
+    <edge source="(526, 563, 256)" target="(520, 568, 254)">
+      <data key="d0">2.3174555396469327</data>
+    </edge>
+    <edge source="(526, 563, 256)" target="(531, 567, 250)">
+      <data key="d0">2.4967799189773565</data>
+    </edge>
+    <edge source="(533, 458, 377)" target="(564, 499, 455)">
+      <data key="d0">3.805948759516423</data>
+    </edge>
+    <edge source="(533, 458, 377)" target="(550, 514, 383)">
+      <data key="d0">3.666505606210435</data>
+    </edge>
+    <edge source="(600, 459, 360)" target="(602, 473, 359)">
+      <data key="d0">3.5945148702580876</data>
+    </edge>
+    <edge source="(600, 459, 360)" target="(632, 461, 359)">
+      <data key="d0">2.936249983439238</data>
+    </edge>
+    <edge source="(542, 337, 350)" target="(581, 239, 336)">
+      <data key="d0">6.402369784295644</data>
+    </edge>
+    <edge source="(542, 337, 350)" target="(616, 313, 336)">
+      <data key="d0">5.38352960103171</data>
+    </edge>
+    <edge source="(581, 239, 336)" target="(581, 231, 339)">
+      <data key="d0">5.376590286953264</data>
+    </edge>
+    <edge source="(581, 239, 336)" target="(594, 228, 326)">
+      <data key="d0">3.9561796164036744</data>
+    </edge>
+    <edge source="(581, 231, 339)" target="(565, 136, 311)">
+      <data key="d0">3.216837255526252</data>
+    </edge>
+    <edge source="(581, 231, 339)" target="(616, 178, 358)">
+      <data key="d0">3.2150222660506618</data>
+    </edge>
+    <edge source="(616, 313, 336)" target="(657, 284, 307)">
+      <data key="d0">2.9620215591004855</data>
+    </edge>
+    <edge source="(616, 313, 336)" target="(665, 345, 335)">
+      <data key="d0">3.035672089381634</data>
+    </edge>
+    <edge source="(480, 317, 394)" target="(497, 238, 395)">
+      <data key="d0">7.3253667351422695</data>
+    </edge>
+    <edge source="(480, 317, 394)" target="(491, 315, 399)">
+      <data key="d0">10.337485706471075</data>
+    </edge>
+    <edge source="(497, 238, 395)" target="(473, 129, 379)">
+      <data key="d0">4.4737760579061785</data>
+    </edge>
+    <edge source="(497, 238, 395)" target="(499, 237, 397)">
+      <data key="d0">6.990859404530167</data>
+    </edge>
+    <edge source="(473, 129, 379)" target="(471, 129, 380)">
+      <data key="d0">4.983870251045172</data>
+    </edge>
+    <edge source="(473, 129, 379)" target="(473, 106, 367)">
+      <data key="d0">3.1539041515176947</data>
+    </edge>
+    <edge source="(471, 129, 380)" target="(470, 130, 381)">
+      <data key="d0">5.0990195135927845</data>
+    </edge>
+    <edge source="(471, 129, 380)" target="(399, 84, 399)">
+      <data key="d0">3.298631512817683</data>
+    </edge>
+    <edge source="(499, 237, 397)" target="(490, 218, 513)">
+      <data key="d0">3.5355274646702153</data>
+    </edge>
+    <edge source="(499, 237, 397)" target="(535, 192, 420)">
+      <data key="d0">3.532523186352133</data>
+    </edge>
+    <edge source="(491, 315, 399)" target="(460, 193, 474)">
+      <data key="d0">3.4781344103328804</data>
+    </edge>
+    <edge source="(491, 315, 399)" target="(547, 321, 400)">
+      <data key="d0">6.682170456079176</data>
+    </edge>
+    <edge source="(547, 321, 400)" target="(566, 342, 409)">
+      <data key="d0">4.829792097233955</data>
+    </edge>
+    <edge source="(547, 321, 400)" target="(574, 305, 423)">
+      <data key="d0">5.388597768285179</data>
+    </edge>
+    <edge source="(566, 342, 409)" target="(564, 347, 411)">
+      <data key="d0">4.151000147853779</data>
+    </edge>
+    <edge source="(566, 342, 409)" target="(603, 360, 419)">
+      <data key="d0">4.09522352328805</data>
+    </edge>
+    <edge source="(603, 360, 419)" target="(614, 363, 428)">
+      <data key="d0">3.4309817954947337</data>
+    </edge>
+    <edge source="(603, 360, 419)" target="(618, 380, 412)">
+      <data key="d0">2.8238284992783393</data>
+    </edge>
+    <edge source="(614, 363, 428)" target="(614, 364, 429)">
+      <data key="d0">3.0</data>
+    </edge>
+    <edge source="(614, 363, 428)" target="(628, 359, 428)">
+      <data key="d0">2.7294253002727755</data>
+    </edge>
+    <edge source="(574, 305, 423)" target="(584, 298, 447)">
+      <data key="d0">4.14245546980457</data>
+    </edge>
+    <edge source="(574, 305, 423)" target="(621, 279, 419)">
+      <data key="d0">3.6631802259722184</data>
+    </edge>
+    <edge source="(584, 298, 447)" target="(593, 281, 467)">
+      <data key="d0">3.0972626164203194</data>
+    </edge>
+    <edge source="(584, 298, 447)" target="(604, 321, 477)">
+      <data key="d0">2.862293220398883</data>
+    </edge>
+    <edge source="(621, 279, 419)" target="(626, 270, 425)">
+      <data key="d0">2.952492739879865</data>
+    </edge>
+    <edge source="(621, 279, 419)" target="(643, 276, 414)">
+      <data key="d0">2.457891821756757</data>
+    </edge>
+    <edge source="(316, 310, 322)" target="(278, 310, 344)">
+      <data key="d0">20.061488520457498</data>
+    </edge>
+    <edge source="(316, 310, 322)" target="(262, 320, 284)">
+      <data key="d0">20.21369724180645</data>
+    </edge>
+    <edge source="(278, 310, 344)" target="(256, 329, 371)">
+      <data key="d0">12.696389462216676</data>
+    </edge>
+    <edge source="(278, 310, 344)" target="(245, 288, 345)">
+      <data key="d0">13.705777753981117</data>
+    </edge>
+    <edge source="(256, 329, 371)" target="(192, 294, 446)">
+      <data key="d0">4.89122093449161</data>
+    </edge>
+    <edge source="(256, 329, 371)" target="(254, 332, 374)">
+      <data key="d0">10.359782921225174</data>
+    </edge>
+    <edge source="(192, 294, 446)" target="(186, 260, 482)">
+      <data key="d0">2.780786358891634</data>
+    </edge>
+    <edge source="(192, 294, 446)" target="(189, 296, 447)">
+      <data key="d0">4.434390284513277</data>
+    </edge>
+    <edge source="(189, 296, 447)" target="(155, 294, 451)">
+      <data key="d0">2.422319323514851</data>
+    </edge>
+    <edge source="(189, 296, 447)" target="(163, 341, 513)">
+      <data key="d0">2.7719956798736702</data>
+    </edge>
+    <edge source="(254, 332, 374)" target="(235, 366, 380)">
+      <data key="d0">10.968181909605063</data>
+    </edge>
+    <edge source="(254, 332, 374)" target="(252, 331, 400)">
+      <data key="d0">7.730901582554645</data>
+    </edge>
+    <edge source="(235, 366, 380)" target="(232, 376, 384)">
+      <data key="d0">9.565221479926937</data>
+    </edge>
+    <edge source="(235, 366, 380)" target="(175, 377, 373)">
+      <data key="d0">6.82096479404733</data>
+    </edge>
+    <edge source="(232, 376, 384)" target="(190, 420, 403)">
+      <data key="d0">4.935109345091666</data>
+    </edge>
+    <edge source="(232, 376, 384)" target="(234, 429, 402)">
+      <data key="d0">4.770631541893288</data>
+    </edge>
+    <edge source="(190, 420, 403)" target="(167, 450, 439)">
+      <data key="d0">3.315604810917699</data>
+    </edge>
+    <edge source="(190, 420, 403)" target="(146, 466, 390)">
+      <data key="d0">3.280003885619507</data>
+    </edge>
+    <edge source="(234, 429, 402)" target="(225, 463, 432)">
+      <data key="d0">2.986225159321106</data>
+    </edge>
+    <edge source="(234, 429, 402)" target="(243, 437, 405)">
+      <data key="d0">3.280613041931897</data>
+    </edge>
+    <edge source="(175, 377, 373)" target="(124, 386, 405)">
+      <data key="d0">3.7184546469888504</data>
+    </edge>
+    <edge source="(175, 377, 373)" target="(110, 411, 348)">
+      <data key="d0">3.9352974254613793</data>
+    </edge>
+    <edge source="(124, 386, 405)" target="(88, 382, 400)">
+      <data key="d0">2.616507897242049</data>
+    </edge>
+    <edge source="(124, 386, 405)" target="(112, 396, 433)">
+      <data key="d0">2.694105743102916</data>
+    </edge>
+    <edge source="(110, 411, 348)" target="(89, 425, 362)">
+      <data key="d0">2.4017407435076175</data>
+    </edge>
+    <edge source="(110, 411, 348)" target="(108, 415, 345)">
+      <data key="d0">2.776585998068889</data>
+    </edge>
+    <edge source="(252, 331, 400)" target="(251, 330, 401)">
+      <data key="d0">5.744562646538029</data>
+    </edge>
+    <edge source="(252, 331, 400)" target="(255, 370, 442)">
+      <data key="d0">4.085877491862382</data>
+    </edge>
+    <edge source="(251, 330, 401)" target="(251, 331, 402)">
+      <data key="d0">5.744562646538029</data>
+    </edge>
+    <edge source="(251, 330, 401)" target="(244, 328, 415)">
+      <data key="d0">5.4372159895882906</data>
+    </edge>
+    <edge source="(244, 328, 415)" target="(192, 398, 484)">
+      <data key="d0">3.3617601415770615</data>
+    </edge>
+    <edge source="(244, 328, 415)" target="(239, 321, 430)">
+      <data key="d0">4.334537359168611</data>
+    </edge>
+    <edge source="(239, 321, 430)" target="(237, 302, 448)">
+      <data key="d0">2.9684082531550056</data>
+    </edge>
+    <edge source="(239, 321, 430)" target="(231, 334, 523)">
+      <data key="d0">3.7221396634641106</data>
+    </edge>
+    <edge source="(231, 334, 523)" target="(230, 333, 524)">
+      <data key="d0">4.123105625617661</data>
+    </edge>
+    <edge source="(231, 334, 523)" target="(232, 348, 534)">
+      <data key="d0">2.7242081228978168</data>
+    </edge>
+    <edge source="(255, 370, 442)" target="(253, 394, 449)">
+      <data key="d0">2.8934553360725612</data>
+    </edge>
+    <edge source="(255, 370, 442)" target="(290, 382, 506)">
+      <data key="d0">2.881447134754531</data>
+    </edge>
+    <edge source="(245, 288, 345)" target="(235, 264, 341)">
+      <data key="d0">9.591377084957317</data>
+    </edge>
+    <edge source="(245, 288, 345)" target="(226, 291, 349)">
+      <data key="d0">9.080461955132085</data>
+    </edge>
+    <edge source="(235, 264, 341)" target="(217, 204, 311)">
+      <data key="d0">5.627254663296755</data>
+    </edge>
+    <edge source="(235, 264, 341)" target="(223, 220, 353)">
+      <data key="d0">6.149653950083506</data>
+    </edge>
+    <edge source="(217, 204, 311)" target="(206, 201, 310)">
+      <data key="d0">4.501417260996851</data>
+    </edge>
+    <edge source="(217, 204, 311)" target="(272, 46, 226)">
+      <data key="d0">2.9325554354571466</data>
+    </edge>
+    <edge source="(206, 201, 310)" target="(129, 140, 292)">
+      <data key="d0">3.0240911122350775</data>
+    </edge>
+    <edge source="(206, 201, 310)" target="(202, 206, 311)">
+      <data key="d0">3.307131574252948</data>
+    </edge>
+    <edge source="(223, 220, 353)" target="(177, 170, 346)">
+      <data key="d0">3.0884371293227977</data>
+    </edge>
+    <edge source="(223, 220, 353)" target="(229, 183, 362)">
+      <data key="d0">5.698477128603159</data>
+    </edge>
+    <edge source="(229, 183, 362)" target="(179, 146, 401)">
+      <data key="d0">2.610638435026175</data>
+    </edge>
+    <edge source="(229, 183, 362)" target="(241, 160, 364)">
+      <data key="d0">5.495653234933602</data>
+    </edge>
+    <edge source="(241, 160, 364)" target="(243, 144, 399)">
+      <data key="d0">3.635756018998793</data>
+    </edge>
+    <edge source="(241, 160, 364)" target="(268, 118, 340)">
+      <data key="d0">4.401132203666773</data>
+    </edge>
+    <edge source="(243, 144, 399)" target="(241, 142, 399)">
+      <data key="d0">3.6736043311189652</data>
+    </edge>
+    <edge source="(243, 144, 399)" target="(295, 122, 447)">
+      <data key="d0">2.7845652495726507</data>
+    </edge>
+    <edge source="(268, 118, 340)" target="(265, 113, 337)">
+      <data key="d0">3.833137175328045</data>
+    </edge>
+    <edge source="(268, 118, 340)" target="(271, 117, 340)">
+      <data key="d0">4.162950646118202</data>
+    </edge>
+    <edge source="(265, 113, 337)" target="(262, 110, 338)">
+      <data key="d0">3.260242135164385</data>
+    </edge>
+    <edge source="(265, 113, 337)" target="(268, 106, 331)">
+      <data key="d0">2.9696806122612656</data>
+    </edge>
+    <edge source="(226, 291, 349)" target="(135, 277, 322)">
+      <data key="d0">5.563803033801101</data>
+    </edge>
+    <edge source="(226, 291, 349)" target="(220, 298, 353)">
+      <data key="d0">7.345402940972705</data>
+    </edge>
+    <edge source="(135, 277, 322)" target="(111, 259, 309)">
+      <data key="d0">3.8919493240198846</data>
+    </edge>
+    <edge source="(135, 277, 322)" target="(65, 319, 284)">
+      <data key="d0">3.299747409592346</data>
+    </edge>
+    <edge source="(111, 259, 309)" target="(82, 242, 290)">
+      <data key="d0">2.952280713918214</data>
+    </edge>
+    <edge source="(111, 259, 309)" target="(77, 240, 319)">
+      <data key="d0">2.710941772747149</data>
+    </edge>
+    <edge source="(220, 298, 353)" target="(156, 286, 379)">
+      <data key="d0">4.947880682467522</data>
+    </edge>
+    <edge source="(220, 298, 353)" target="(189, 307, 329)">
+      <data key="d0">2.995779895689384</data>
+    </edge>
+    <edge source="(156, 286, 379)" target="(121, 302, 392)">
+      <data key="d0">3.848109656005346</data>
+    </edge>
+    <edge source="(156, 286, 379)" target="(127, 247, 376)">
+      <data key="d0">3.1384460765718813</data>
+    </edge>
+    <edge source="(121, 302, 392)" target="(113, 301, 388)">
+      <data key="d0">3.5732511898015895</data>
+    </edge>
+    <edge source="(121, 302, 392)" target="(112, 310, 409)">
+      <data key="d0">2.950121485391474</data>
+    </edge>
+    <edge source="(127, 247, 376)" target="(109, 225, 365)">
+      <data key="d0">2.426998770131733</data>
+    </edge>
+    <edge source="(127, 247, 376)" target="(115, 237, 386)">
+      <data key="d0">2.387907227759819</data>
+    </edge>
+    <edge source="(262, 320, 284)" target="(213, 264, 240)">
+      <data key="d0">9.100657612006769</data>
+    </edge>
+    <edge source="(262, 320, 284)" target="(244, 331, 278)">
+      <data key="d0">18.52924817542379</data>
+    </edge>
+    <edge source="(213, 264, 240)" target="(229, 271, 210)">
+      <data key="d0">3.720156581779273</data>
+    </edge>
+    <edge source="(213, 264, 240)" target="(210, 260, 237)">
+      <data key="d0">6.747269139556298</data>
+    </edge>
+    <edge source="(210, 260, 237)" target="(124, 169, 159)">
+      <data key="d0">2.8767755339809216</data>
+    </edge>
+    <edge source="(210, 260, 237)" target="(183, 163, 194)">
+      <data key="d0">3.013859295447628</data>
+    </edge>
+    <edge source="(244, 331, 278)" target="(237, 336, 273)">
+      <data key="d0">15.575521925484168</data>
+    </edge>
+    <edge source="(244, 331, 278)" target="(239, 346, 293)">
+      <data key="d0">11.769878114274945</data>
+    </edge>
+    <edge source="(237, 336, 273)" target="(147, 274, 231)">
+      <data key="d0">6.886916636626648</data>
+    </edge>
+    <edge source="(237, 336, 273)" target="(226, 367, 253)">
+      <data key="d0">13.800455337167092</data>
+    </edge>
+    <edge source="(147, 274, 231)" target="(116, 270, 214)">
+      <data key="d0">4.322411957585048</data>
+    </edge>
+    <edge source="(147, 274, 231)" target="(74, 213, 217)">
+      <data key="d0">2.6865201369365046</data>
+    </edge>
+    <edge source="(116, 270, 214)" target="(69, 291, 218)">
+      <data key="d0">3.1418970331547693</data>
+    </edge>
+    <edge source="(116, 270, 214)" target="(73, 237, 174)">
+      <data key="d0">3.224805247906448</data>
+    </edge>
+    <edge source="(226, 367, 253)" target="(221, 378, 242)">
+      <data key="d0">12.581396329214801</data>
+    </edge>
+    <edge source="(226, 367, 253)" target="(240, 403, 266)">
+      <data key="d0">7.434573422955249</data>
+    </edge>
+    <edge source="(221, 378, 242)" target="(231, 376, 213)">
+      <data key="d0">8.629742325877885</data>
+    </edge>
+    <edge source="(221, 378, 242)" target="(219, 382, 240)">
+      <data key="d0">13.817841762587832</data>
+    </edge>
+    <edge source="(231, 376, 213)" target="(146, 340, 181)">
+      <data key="d0">3.378304050812777</data>
+    </edge>
+    <edge source="(231, 376, 213)" target="(331, 376, 118)">
+      <data key="d0">2.7131455428716897</data>
+    </edge>
+    <edge source="(219, 382, 240)" target="(176, 412, 232)">
+      <data key="d0">9.193704980423595</data>
+    </edge>
+    <edge source="(219, 382, 240)" target="(223, 408, 237)">
+      <data key="d0">10.633492286054125</data>
+    </edge>
+    <edge source="(176, 412, 232)" target="(84, 410, 182)">
+      <data key="d0">6.597594641297678</data>
+    </edge>
+    <edge source="(176, 412, 232)" target="(159, 432, 241)">
+      <data key="d0">6.690981097895746</data>
+    </edge>
+    <edge source="(84, 410, 182)" target="(15, 319, 135)">
+      <data key="d0">3.332385628173778</data>
+    </edge>
+    <edge source="(84, 410, 182)" target="(54, 448, 135)">
+      <data key="d0">3.66091681038605</data>
+    </edge>
+    <edge source="(159, 432, 241)" target="(133, 451, 227)">
+      <data key="d0">4.3576329700050955</data>
+    </edge>
+    <edge source="(159, 432, 241)" target="(145, 448, 256)">
+      <data key="d0">4.688456290044977</data>
+    </edge>
+    <edge source="(133, 451, 227)" target="(72, 446, 231)">
+      <data key="d0">3.3132375315693934</data>
+    </edge>
+    <edge source="(133, 451, 227)" target="(92, 505, 204)">
+      <data key="d0">2.8873329551041484</data>
+    </edge>
+    <edge source="(145, 448, 256)" target="(100, 479, 262)">
+      <data key="d0">3.270552489407712</data>
+    </edge>
+    <edge source="(145, 448, 256)" target="(145, 462, 255)">
+      <data key="d0">2.9882144382460027</data>
+    </edge>
+    <edge source="(223, 408, 237)" target="(148, 512, 156)">
+      <data key="d0">5.267496685281392</data>
+    </edge>
+    <edge source="(223, 408, 237)" target="(239, 447, 222)">
+      <data key="d0">7.272998555730085</data>
+    </edge>
+    <edge source="(239, 447, 222)" target="(243, 453, 216)">
+      <data key="d0">7.02574425018016</data>
+    </edge>
+    <edge source="(239, 447, 222)" target="(216, 549, 200)">
+      <data key="d0">3.7342597992182314</data>
+    </edge>
+    <edge source="(243, 453, 216)" target="(254, 534, 146)">
+      <data key="d0">5.044316729571382</data>
+    </edge>
+    <edge source="(243, 453, 216)" target="(279, 465, 191)">
+      <data key="d0">3.847302556920119</data>
+    </edge>
+    <edge source="(254, 534, 146)" target="(224, 570, 107)">
+      <data key="d0">2.711627666656758</data>
+    </edge>
+    <edge source="(254, 534, 146)" target="(266, 569, 107)">
+      <data key="d0">3.4208750517093476</data>
+    </edge>
+    <edge source="(216, 549, 200)" target="(214, 561, 188)">
+      <data key="d0">3.2628274108039195</data>
+    </edge>
+    <edge source="(216, 549, 200)" target="(209, 567, 206)">
+      <data key="d0">2.348825663243191</data>
+    </edge>
+    <edge source="(214, 561, 188)" target="(206, 567, 182)">
+      <data key="d0">2.7766634449091443</data>
+    </edge>
+    <edge source="(214, 561, 188)" target="(221, 569, 177)">
+      <data key="d0">2.5256653529537556</data>
+    </edge>
+    <edge source="(240, 403, 266)" target="(282, 439, 252)">
+      <data key="d0">3.923448962685115</data>
+    </edge>
+    <edge source="(240, 403, 266)" target="(230, 510, 270)">
+      <data key="d0">3.8775942884662475</data>
+    </edge>
+    <edge source="(282, 439, 252)" target="(281, 444, 253)">
+      <data key="d0">3.2802157032686337</data>
+    </edge>
+    <edge source="(282, 439, 252)" target="(325, 436, 204)">
+      <data key="d0">2.447275770498516</data>
+    </edge>
+    <edge source="(230, 510, 270)" target="(181, 566, 276)">
+      <data key="d0">2.587670545815625</data>
+    </edge>
+    <edge source="(230, 510, 270)" target="(248, 541, 272)">
+      <data key="d0">2.925421845129799</data>
+    </edge>
+    <edge source="(239, 346, 293)" target="(208, 427, 304)">
+      <data key="d0">5.291516119697861</data>
+    </edge>
+    <edge source="(239, 346, 293)" target="(264, 386, 303)">
+      <data key="d0">5.946678181845778</data>
+    </edge>
+    <edge source="(208, 427, 304)" target="(161, 465, 301)">
+      <data key="d0">3.560925537452167</data>
+    </edge>
+    <edge source="(208, 427, 304)" target="(208, 475, 322)">
+      <data key="d0">3.448702322827906</data>
+    </edge>
+    <edge source="(208, 475, 322)" target="(204, 493, 336)">
+      <data key="d0">2.950101967729845</data>
+    </edge>
+    <edge source="(208, 475, 322)" target="(210, 501, 322)">
+      <data key="d0">2.8274677089729825</data>
+    </edge>
+    <edge source="(264, 386, 303)" target="(291, 408, 294)">
+      <data key="d0">3.372412837906859</data>
+    </edge>
+    <edge source="(264, 386, 303)" target="(271, 443, 319)">
+      <data key="d0">3.9301849631830237</data>
+    </edge>
+    <edge source="(271, 443, 319)" target="(264, 509, 353)">
+      <data key="d0">2.97656534650698</data>
+    </edge>
+    <edge source="(271, 443, 319)" target="(274, 446, 327)">
+      <data key="d0">3.0024174183268535</data>
+    </edge>
+  </graph>
+</graphml>
