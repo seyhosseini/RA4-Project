@@ -12,6 +12,6 @@
 2-DICOMS/
 dcm2nifti/
 venvally/
-venvally2/
+venv_allyson/
 *.vtk
 *.nrrd
