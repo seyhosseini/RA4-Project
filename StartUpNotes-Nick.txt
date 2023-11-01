@@ -1,3 +1,12 @@
+///Day 17////////////////////////////////////////////////////////////////////////////////////////////
+11/1
+	Notes:
+		Let's work on adding two-way functionality
+
+		Using threshold filter, increasing/decreasing lower threshold will thin/thicken the image.
+		I.e lower threshold of 10 yields a very thick artifact while threshold of 200 yields thinned out
+		artifact and gaps along the airway. 100 seems to be a good value.
+
 ///Day 16////////////////////////////////////////////////////////////////////////////////////////////
 10/30
 	Notes:
