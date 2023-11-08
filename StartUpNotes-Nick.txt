@@ -1,3 +1,17 @@
+///Day 19////////////////////////////////////////////////////////////////////////////////////////////
+11/8
+	Notes:
+		Don't need to do vtk creation anymore.
+
+		(1) Show TLC's in report
+			Unzip all, write code for dictionary of case number and patient ID, go to word doc code and export images to proper
+			row find lung mask, open header.
+
+			(Read in as NIfTI)
+			
+		(2) Add disease maps in
+		(3) Finalize geometry transformation
+
 ///Day 17////////////////////////////////////////////////////////////////////////////////////////////
 11/1
 	Notes:
@@ -6,6 +20,9 @@
 		Using threshold filter, increasing/decreasing lower threshold will thin/thicken the image.
 		I.e lower threshold of 10 yields a very thick artifact while threshold of 200 yields thinned out
 		artifact and gaps along the airway. 100 seems to be a good value.
+
+		Need to decide how we will preserve values of 0, 1, and 2 on arterial tree. Currently with BSpline,
+		this is unknown. However, ChatGPT says this can be done using nearest neighbor sampling/interpolation.
 
 ///Day 16////////////////////////////////////////////////////////////////////////////////////////////
 10/30
