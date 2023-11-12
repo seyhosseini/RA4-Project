@@ -1,7 +1,16 @@
 ///Day 20////////////////////////////////////////////////////////////////////////////////////////////
+11/12
+	Notes:
+		Image is not currently flipped, and you are not supposed to read in header data into a np array.
+		You can get spacing from header file
+
+		
+
+
+///Day 20////////////////////////////////////////////////////////////////////////////////////////////
 11/9
 	Notes:
-		Everything above 0 should become 1. Use 3D contour to visualiz at level 0.5. Then save figure.
+		Everything above 0 should become 1. Use 3D contour to visualize at level 0.5. Then save figure.
 		
 
 ///Day 19////////////////////////////////////////////////////////////////////////////////////////////
