@@ -4,8 +4,7 @@
 		Image is not currently flipped, and you are not supposed to read in header data into a np array.
 		You can get spacing from header file
 
-		
-
+		Ignore issues with direction matrix and skewness. Just take snapshot, save, attach current image to document.
 
 ///Day 20////////////////////////////////////////////////////////////////////////////////////////////
 11/9
