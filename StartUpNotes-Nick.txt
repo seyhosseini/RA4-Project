@@ -1,4 +1,18 @@
 ///Day 20////////////////////////////////////////////////////////////////////////////////////////////
+11/13
+	Notes:
+		Whatever solution we choose, plan ahead to ensure all steps are possible.
+		After getting it into the doc, try to remove hard coding of the case image path.
+
+		This case, when viewed in 3D slicer is upside down. I.E. bottom of lung appears superior to top of lung.
+
+		Changed default distance to 700 voxels. Had to play around a lot to get a good view. Now editing word doc
+		code to write into a table.
+
+		Does it matter the dimensions? I increased row height to 100pt. Should I increase font size to 12pt?
+
+
+///Day 20////////////////////////////////////////////////////////////////////////////////////////////
 11/12
 	Notes:
 		Image is not currently flipped, and you are not supposed to read in header data into a np array.
