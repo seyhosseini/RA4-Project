@@ -10,6 +10,16 @@
 		code to write into a table.
 
 		Does it matter the dimensions? I increased row height to 100pt. Should I increase font size to 12pt?
+		Should I add same case numbers list from Nate's image creation code?
+
+		In actual report, images will be put in order.
+
+		LATER check T10 table as it is more up to date for Study ID -> Case Number Dictionaries.
+		Also, fix the flipping and everything with Soheil's ReCentering.
+
+		Later check one of Nate's in Slicer to see if it is flipped or not.
+
+		Direction matrix issue solved. Our picture was correct. 
 
 
 ///Day 20////////////////////////////////////////////////////////////////////////////////////////////
