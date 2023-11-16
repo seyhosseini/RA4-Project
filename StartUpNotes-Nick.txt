@@ -4,10 +4,12 @@
 		TO-DO
 			Try and automate the process where given the case number, it finds the correct study ID, take image, and plots.
 				DONE
+			Fix find_header_file so that it works with both mesal and spiromics.
+				DONE
 			Double check on case number study ID dictionary.
 				
 			Make Doc writing code into a loop when given a list of the case numbers you would like to print.
-				
+
 
 
 ///Day 20////////////////////////////////////////////////////////////////////////////////////////////
