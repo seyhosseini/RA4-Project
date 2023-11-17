@@ -1,3 +1,16 @@
+///Day 22////////////////////////////////////////////////////////////////////////////////////////////
+11/17
+	Notes:
+		TO-DO
+			Keep loading image files and writing to the doc
+
+			Double check on case number study ID dictionary.
+
+			Some Mesal files listed as MESAL?? Fix code for this next time.
+				DONE (code is fixed and will work whether MESA or MESAL is in the file name)
+
+
+
 ///Day 21////////////////////////////////////////////////////////////////////////////////////////////
 11/16
 	Notes:
@@ -6,9 +19,8 @@
 				DONE
 			Fix find_header_file so that it works with both mesal and spiromics.
 				DONE
-			Double check on case number study ID dictionary.
-				
-			Make Doc writing code into a loop when given a list of the case numbers you would like to print.
+			Make Doc writing code go into a loop and print out all completed images.
+				DONE
 
 
 
