@@ -10,7 +10,8 @@
 				DONE
 				Cell can now be used for the dictionary whenever case numbers/study IDs have been updated.
 			Keep loading image files and writing to the doc. Aim for all files.
-				
+				Got through 32 images. Found out that not all spiromics have a subfolder?
+				Next time, need to iron out this error and load the rest of the case images.
 
 ///Day 21////////////////////////////////////////////////////////////////////////////////////////////
 11/16
