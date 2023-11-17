@@ -2,14 +2,15 @@
 11/17
 	Notes:
 		TO-DO
-			Keep loading image files and writing to the doc
-
-			Double check on case number study ID dictionary.
-
 			Some Mesal files listed as MESAL?? Fix code for this next time.
 				DONE (code is fixed and will work whether MESA or MESAL is in the file name)
-
-
+			Fix the rest of the code to ensure MESA and MESAL case files both work fine from start to finish
+				DONE
+			Double check on case number study ID dictionary.
+				DONE
+				Cell can now be used for the dictionary whenever case numbers/study IDs have been updated.
+			Keep loading image files and writing to the doc. Aim for all files.
+				
 
 ///Day 21////////////////////////////////////////////////////////////////////////////////////////////
 11/16
