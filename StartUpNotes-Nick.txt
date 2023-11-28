@@ -1,4 +1,21 @@
 ///Day 22////////////////////////////////////////////////////////////////////////////////////////////
+11/28
+	Notes:
+		TO-DO
+			Keep loading image files and writing to the doc. Aim for all files.
+				CASE 38 SPI-IA210599 is folder unzipped?? Not looking like other cases.
+				Several other cases follow this pattern. For now, just loading in all of the cases we can,
+				and saving the ones that we cannot to a list called notImaged. These cases will have to be
+				trouble-shot later.
+				
+			7 NOT IMAGED. Check in to make sure each follow the same pattern.
+			
+			Investigate Case54 cut off?
+
+			Fix order of cases in word doc to match Nate's
+
+
+///Day 22////////////////////////////////////////////////////////////////////////////////////////////
 11/17
 	Notes:
 		TO-DO
