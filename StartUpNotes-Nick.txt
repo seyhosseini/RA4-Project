@@ -12,12 +12,17 @@
 				Not TLC but instead INSPIRATION? (All)
 				500+ items all named 42852241+
 
-			Investigate Case54 cut off?
+			Investigate Case54 cut off?   DONE
 				Cut off for some reason, especially after comparing with Nate's code.
 
-			Fix order of cases in word doc to match Nate's
+			Leave note in Soheil's inbox about the above 2 errors.  DONE
 
-			Investigate direction matrix flip issue.
+			Fix order of cases in word doc to match Nate's   DONE
+
+			Compare my images to Nate's
+				Each case looks similar enough, taking into account different views and also magnification factor.
+				NOTE: Nate's case numbers do NOT match up with mine.
+			
 
 
 ///Day 22////////////////////////////////////////////////////////////////////////////////////////////
