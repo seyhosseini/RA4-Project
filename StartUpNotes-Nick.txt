@@ -1,9 +1,15 @@
+///Day 24////////////////////////////////////////////////////////////////////////////////////////////
+12/1
+	Notes:
+		TO-DO
+			Get spacing correct, then we will bring in the disease maps. Use toy example.
+
 ///Day 23////////////////////////////////////////////////////////////////////////////////////////////
 11/29
 	Notes:
 		TO-DO
 			RIGHT NOW we have almost all cases with incorrect images. We need to first fix the spacings then add in disease maps
-			
+
 			Investigate spacing issue
 				Does origin matter?
 				Found out that for case 1, ZUNU file and done folder mesa TLC file are similar, but origin and dimensions are slightly different.
@@ -13,6 +19,9 @@
 			Is direction matrix sorted out then?
 				Compared case 1 with Nate's case 1. Seems that direction matrix is all good except for inferior posterior. Still issue with superior/inferior flipped?
 
+			Review ImageTransformationGeometry code. See what else needs to be done for it
+				ImageTransformationGeometry code almost done. Just small details to iron out.
+				(1) How to deal with arterial trees? Using BSpline interp we can't currently keep them as two separate values.
 
 ///Day 22////////////////////////////////////////////////////////////////////////////////////////////
 11/28
