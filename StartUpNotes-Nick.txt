@@ -1,3 +1,13 @@
+///Day 26////////////////////////////////////////////////////////////////////////////////////////////
+12/5
+	Notes:
+		TO-DO
+			Continue with spacing code. X and Y spacing is the same, Z is different DONE
+			One step closer to disease map doc. Now, apply to the case images.
+
+			Now, implement lung flip into existing code and edit the screenshotting.
+
+
 ///Day 25////////////////////////////////////////////////////////////////////////////////////////////
 12/3
 	Notes:
