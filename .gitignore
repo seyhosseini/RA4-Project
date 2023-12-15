@@ -17,3 +17,4 @@ dcm2nifti/
 *.docx
 *.xlsx
 *.vtk
+runs/
