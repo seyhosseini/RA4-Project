@@ -144,7 +144,7 @@ def plot_losses(train_losses, val_losses):
     plt.pause(0.001)
 
 # Main training loop
-num_epochs = 2 # Example value
+num_epochs = 1 # Example value
 display_interval = 1 # Example value
 
 train_losses = []
@@ -188,8 +188,8 @@ for epoch in range(num_epochs):
     plot_losses(train_losses, val_losses)
     print(f"Epoch [{epoch+1}/{num_epochs}] - Train Loss: {train_losses[-1]:.4f}, Val Loss: {val_losses[-1]:.4f}")
 
-plt.ioff()  # Turn off interactive mode
-plt.show()  # Display final plots
+# plt.ioff()  # Turn off interactive mode
+# plt.show()  # Display final plots
 
 torch.save(net.state_dict(), model_save_path)
 torch.save(optimizer.state_dict(), optimizer_save_path)
