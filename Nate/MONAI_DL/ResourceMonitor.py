@@ -67,3 +67,4 @@ while (True):
 
     display(fig)
     time.sleep(interval)
+    i += 1
