@@ -8,7 +8,6 @@ from monai.networks.nets import UNet
 from monai.losses import DiceLoss
 from monai.data import Dataset, DataLoader, pad_list_data_collate
 print("Monai imported. Importing Torch")
-import matplotlib.pyplot as plt
 import torch
 from torch.optim import Adam
 from torch.optim.lr_scheduler import CosineAnnealingLR
@@ -167,7 +166,7 @@ def visualize_and_save_train_3d(inputs, outputs, labels, batch_indext, epoch):
                 input_slice_mid = input_slice[input_slice.shape[0] // 2]  # Middle slice of the input volume
                 # input_slice_mid_normalized = (input_slice_mid - clippingmin) / \
                 #                             (clippingmax - clippingmin)
-                zoom_factor = 0.5
+                zoom_factor = .01
                 # Get the label and prediction volumes
                 label_volume = labels[i, 0].cpu().numpy().astype(np.uint8)
                 output_volume = outputs[i].detach().cpu().numpy()
