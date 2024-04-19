@@ -29,7 +29,6 @@ from torch.utils.tensorboard import SummaryWriter
 # import torchvision 
 # from   docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
-
 from monai.transforms import (
     Compose, LoadImaged, ScaleIntensityRanged,
     RandSpatialCropd, EnsureTyped, RandRotate90d
@@ -37,6 +36,7 @@ from monai.transforms import (
 from monai.data import DataLoader, CacheDataset
 from pytorch_lightning import Trainer, callbacks
 from pytorch_lightning.callbacks import ModelCheckpoint
+import torch.nn as nn
 
 print("Creating Dataset and DataLoader Functions")
 
@@ -180,8 +180,8 @@ def visualize_and_save_train(inputs, outputs, labels, batch_indext, epoch, globa
                 ax[2].imshow(prediction_rgb_slice)
                 ax[2].set_title("Prediction")
                 
-                fig.suptitle(f'Training Image: Epoch-{epoch}-Batch-{batch_indext}-Image-{global_step+i}', fontsize=16)
-                img_path = f"./PNG/T-Epoch-{epoch}-Batch-{batch_indext}-Image-{global_step+i}.png"
+                fig.suptitle(f'Training Image: Epoch-{epoch}-Batch-{batch_indext}-Image-{i}', fontsize=16)
+                img_path = f"./PNG/T-Epoch-{epoch}-Batch-{batch_indext}-Image-{i}.png"
                 print(f"V-Epoch-{epoch}-Batch-{batch_indext}-Image-{i}.png")
                 print(f"Saving Image to:  {img_path}")
                 
@@ -190,8 +190,11 @@ def visualize_and_save_train(inputs, outputs, labels, batch_indext, epoch, globa
                 plt.savefig(img_path)
                 plt.close()
                 saved_train_image_paths.append(img_path)
-                md_file.write(f"![T-Epoch-{epoch}-Batch-{batch_indext}-Image-{global_step+i}.png]({img_path})\n\n")
+                md_file.write(f"![T-Epoch-{epoch}-Batch-{batch_indext}-Image-{i}.png]({img_path})\n\n")
                 # global_image_counter += 1
+
+
+                
 
     print(f"Markdown file updated at {md_file_path}")
     return saved_train_image_paths
@@ -232,8 +235,8 @@ def visualize_and_save_valid(inputs, outputs, labels, batch_indexv, epoch, globa
                 ax[2].imshow(prediction_rgb_slice)
                 ax[2].set_title("Prediction")
                 
-                fig.suptitle(f'Validation Image: Epoch-{epoch}-Batch-{batch_indexv}-Image-{global_step+i}', fontsize=16)
-                img_path = f"./PNG/V-Epoch-{epoch}-Batch-{batch_indexv}-Image-{global_step+i}.png"
+                fig.suptitle(f'Validation Image: Epoch-{epoch}-Batch-{batch_indexv}-Image-{i}', fontsize=16)
+                img_path = f"./PNG/V-Epoch-{epoch}-Batch-{batch_indexv}-Image-{i}.png"
                 print(f"V-Epoch-{epoch}-Batch-{batch_indexv}-Image-{i}.png")
                 print(f"Saving Image to:  {img_path}")
                 # Save the image
@@ -241,7 +244,7 @@ def visualize_and_save_valid(inputs, outputs, labels, batch_indexv, epoch, globa
                 plt.close()
                 saved_valid_image_paths.append(img_path)
                 # Write to the markdown file
-                md_file.write(f"![V-Epoch-{epoch}-Batch-{batch_indexv}-Image-{global_step+i}.png]({img_path})\n\n")
+                md_file.write(f"![V-Epoch-{epoch}-Batch-{batch_indexv}-Image-{i}.png]({img_path})\n\n")
 
     print(f"Markdown file updated at {md_file_path}")
 
@@ -323,8 +326,7 @@ def visualize_and_save_train_3d(inputs, outputs, labels, batch_indext, epoch, gl
                 plt.savefig(img_path)
                 plt.close()
                 saved_train_image_paths.append(img_path)
-                md_file.write(f"![T-Epoch-{epoch}-Batch-{batch_indext}-Image-{global_step+i}.png]({img_path})\n\n")
-
+                md_file.write(f"![T-Epoch-{epoch}-Batch-{batch_indext}-Image-{i}.png]({img_path})\n\n")
     print(f"Markdown file updated at {md_file_path}")
     return saved_train_image_paths
 def visualize_and_save_valid_3d(inputs, outputs, labels, batch_indexv, epoch, global_step, trainer):
@@ -344,7 +346,8 @@ def visualize_and_save_valid_3d(inputs, outputs, labels, batch_indexv, epoch, gl
                 input_slice_mid = input_slice[input_slice.shape[0] // 2]  # Middle slice of the input volume
                 # input_slice_mid_normalized = (input_slice_mid - clippingmin) / \
                 #                             (clippingmax - clippingmin)
-                zoom_factor = 0.5
+                # zoom_factor = .65
+                downsample_factor = 2
                 # Get the label and prediction volumes
                 label_volume = labels[i, 0].cpu().numpy().astype(np.uint8)
                 output_volume = outputs[i].detach().cpu().numpy()
@@ -355,13 +358,17 @@ def visualize_and_save_valid_3d(inputs, outputs, labels, batch_indexv, epoch, gl
                 label_slice = label_volume[slice_idx]
                 predicted_labels_slice = predicted_labels_volume[slice_idx]
 
-                downsampled_label = zoom(label_volume, zoom_factor, order=0)
+                # downsampled_label = zoom(label_volume, zoom_factor, order=0)
+                # If self.downsample_factor is 2
+                downsampled_label = label_volume[::downsample_factor, ::downsample_factor, ::downsample_factor]
+
                 ax[3] = fig.add_subplot(1, 5, 4, projection='3d')
                 
 
                 ax[3].set_title("3D Ground Truth")
                 plot_3d_volume(ax[3], downsampled_label, color_map)
-                downsampled_prediction = zoom(predicted_labels_volume, zoom_factor, order=0)
+                # downsampled_prediction = zoom(predicted_labels_volume, zoom_factor, order=0)
+                downsampled_prediction  = predicted_labels_volume[::downsample_factor, ::downsample_factor, ::downsample_factor]
                 ax[4] = fig.add_subplot(1, 5, 5, projection='3d')
                 
                 ax[4].set_title("3D Prediction")
@@ -405,7 +412,7 @@ def visualize_and_save_valid_3d(inputs, outputs, labels, batch_indexv, epoch, gl
                 plt.close()
                 saved_valid_image_paths.append(img_path)
                 # Write to the markdown file
-                md_file.write(f"![V-Epoch-{epoch}-Batch-{batch_indexv}-Image-{global_step+i}.png]({img_path})\n\n")
+                md_file.write(f"![V-Epoch-{epoch}-Batch-{batch_indexv}-Image-{i}.png]({img_path})\n\n")
 
     print(f"Markdown file updated at {md_file_path}")
     return saved_valid_image_paths
@@ -441,14 +448,13 @@ def create_word_document(expdesc, selected_train_images, selected_val_images, lo
     print(f"Document updated/created: {output_path}")
     ############################################################################
 
-
-
 md_file_path = "./visualization.md"
 hostname = socket.gethostname()
 
-expdesc = (f"Job 10: \n Copy of Job 9 \n Train Images: 16 \n Validation Images: 16 \n Train Crop: RandSpatialCrop \n \
+expdesc = (f"JI-4: \n Compare to JI-3  \n Train Images: 16 \n Validation Images: 16 \n Train Crop: RandSpatialCrop \n \
 Validation Crop: RandSpatialCrop \n Epochs: 3500 \n Learning Rate: 6e-4 \n \
-Spacing: (0.8, 0.8, 0.8) \n Batch Size: 4 \n Patch Size: (128, 128, 128) \n Compute Node: {hostname} /n NO DOWNSAMPLE TRANSFORM (NOT WORKING WITH LIGHTNING)") # REMEBER TO CHANGE THIS EACH JOB
+Spacing: (0.8, 0.8, 0.8) \n Batch Size: 4 \n Patch Size: (192, 192, 192) \n Compute Node: {hostname} /n \
+    Batch Normalization \n L2Reg: 1e-5") # REMEBER TO CHANGE THIS EACH JOB
 
 with open('expdesc.txt', 'w') as file:
     file.write(expdesc)
@@ -457,8 +463,8 @@ learning_rate_path     ="./PNG/learning_rate.png"
 log_learning_rate_path ="./PNG/log_learning_rate.png"
 train_data_dir = "../../TrainingData16V3/"
 val_data_dir = "../../ValidationData16V3/"
-model_save_path = "./model/Nate_Unet.pth"
-optimizer_save_path = "./model/Nate_Unet_optimizer.pth"
+# model_save_path = "./model/Nate_Unet.pth"
+# optimizer_save_path = "./model/Nate_Unet_optimizer.pth"
 train_image_paths = []
 val_image_paths = []
 train_losses = []
@@ -467,10 +473,10 @@ train_image_batch_paths = []
 val_image_batch_paths = []
 learning_rates = [] 
 starttime = time.time()
-# word_output_path = "./JobReport.docx"
+
 NGPUS = 1 ############################################## 1
 # Main training loop
-# num_epochs = 6
+
 display_interval = 1
 starttime = time.time()
 print("Defining the create_dataset function...")
@@ -483,9 +489,9 @@ train_files = create_dataset(train_data_dir)
 val_files   = create_dataset(val_data_dir)
 
 # Define the size of the cropped region
-# roi_size = (192, 192, 192) ############################################################### 3
+roi_size = (192, 192, 192) ############################################################### 3
 # roi_size = (64, 64, 64)
-roi_size = (128, 128, 128)
+# roi_size = (128, 128, 128)
 print("Defining transformations...")
 # Transformations
 print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")
@@ -511,7 +517,6 @@ val_transforms = Compose([
     LoadImaged(keys=['image', 'label']),
     EnsureChannelFirstd(keys=['image', 'label']),
     downsampling_transform,
-    # SpatialPadd(keys=['image', 'label'], spatial_size=roi_size, method='symmetric'),  # Add padding here
     RandSpatialCropd(keys=['image', 'label'], roi_size=roi_size),
     ScaleIntensityRanged(keys=['image'], a_min=-1100, a_max=3000, b_min=-1.0, b_max=1.0, clip=True),
     EnsureTyped(keys=["image", "label"]),
@@ -537,10 +542,13 @@ class UNetModel(pl.LightningModule):
             channels=(16, 32, 64, 128, 256),
             strides=(2, 2, 2, 2),
             num_res_units=2,
+            norm='batch',
         )
 
-        self.loss_fn = DiceLoss(to_onehot_y=True, softmax=True) ############################################ 8
-        self.all_epochs = []
+        # self.loss_fn = DiceLoss(to_onehot_y=True, softmax=True) 
+        # self.loss_fn = nn.CrossEntropyLoss() ############################################ 8
+        class_weights = torch.tensor([0.2, 0.4, 0.4])
+        self.loss_fn = nn.CrossEntropyLoss(weight=class_weights)
         # self.loss_fn = FocalLoss(
         #     include_background=True, 
         #     to_onehot_y=True, 
@@ -550,65 +558,61 @@ class UNetModel(pl.LightningModule):
         # )
 
         # torch.nn.CrossEntropyLoss()
-        # FocalLoss(
-        #     include_background=True, 
-        #     to_onehot_y=True, 
-        #     gamma=2.0, 
-        #     reduction="mean",
-        #     use_softmax=True
-        # )
+        
 
     def forward(self, x):
         x = self.model(x)
         return x
     
     def configure_optimizers(self):
-        return Adam(self.parameters(), lr=6e-4) ###################################### 9
+        optimizer = Adam(self.parameters(), lr=6e-4, weight_decay=1e-5)
+        # return Adam(self.parameters(), lr=6e-4)
+        return optimizer ###################################### 9
 
     def training_step(self, batchT, batch_idxT):
         # x, y = batch
         imagesT, targetsT = batchT["image"], batchT["label"]
+        targetsTs = torch.squeeze(targetsT, 1) 
+        targetsTs = targetsTs.long() #
         outputsT = self(imagesT)
-        loss = self.loss_fn(outputsT, targetsT)
+        loss = self.loss_fn(outputsT, targetsTs)
         self.log("train_loss", loss)
         
         current_lr = self.trainer.optimizers[0].param_groups[0]['lr']
         current_epoch = self.current_epoch
         learning_rates.append((current_epoch, current_lr))
         train_losses.append((current_epoch, loss.item()))
-        if self.current_epoch % 100 == 0 and self.current_epoch != 0:
-            train_image_batch_paths = visualize_and_save_train_3d(imagesT, outputsT, targetsT, batch_idxT, self.current_epoch, self.global_step, self.trainer)
+        if self.current_epoch % 100 == 0 or self.current_epoch == 0:
+            train_image_batch_paths = visualize_and_save_train(imagesT, outputsT, targetsT, batch_idxT, self.current_epoch, self.global_step, self.trainer)
             train_image_paths.extend(train_image_batch_paths)
+        # if self.current_epoch % 500 == 0 or self.current_epoch == 0:
+        #     train_image_batch_paths = visualize_and_save_train_3d(imagesT, outputsT, targetsT, batch_idxT, self.current_epoch, self.global_step, self.trainer)
+        #     train_image_paths.extend(train_image_batch_paths)
         print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")
-        # train_image_batch_paths = visualize_and_save_train(images, outputs, targets, batch_idx, self.current_epoch, self.global_step, self.trainer)
-        # train_image_paths.extend(train_image_batch_paths)
-        # if batch_idx % 2 == 0:
-        #     x=x[:5]
-        #     grid = torchvision.utils.make_grid(x.view(-1, 1, 28, 28))
-        #     self.logger.experiment.add_image("Train data", grid, self.global_step)
-        # train_image_batch_paths, global_image_counter = visualize_and_save_train(images, outputs, targets, batch_idx, self.current_epoch, global_image_counter)
-        # train_image_batch_paths = visualize_and_save_train_3d(images, outputs, targets, batch_idx, self.current_epoch)
-        # train_image_paths.extend(train_image_batch_paths)
         return loss
     
+
     def validation_step(self, batchV, batch_idxV):
         imagesV, targetsV = batchV["image"], batchV["label"]
+        targetsVs = torch.squeeze(targetsV, 1) 
+        targetsVs = targetsVs.long() 
         outputsV = self(imagesV)
-        loss = self.loss_fn(outputsV, targetsV)
+        loss = self.loss_fn(outputsV, targetsVs)
         self.log("val_loss", loss, prog_bar=True)
         current_epoch = self.current_epoch
         val_losses.append((current_epoch, loss.item()))
-        if self.current_epoch % 100 == 0 and self.current_epoch != 0:
-            # val_image_batch_paths = visualize_and_save_valid(images, outputs, targets, batch_idx, self.current_epoch, self.global_step, self.trainer)
+        if self.current_epoch % 100 == 0 or self.current_epoch == 0:
+            val_image_batch_paths = visualize_and_save_valid(imagesV, outputsV, targetsV, batch_idxV, self.current_epoch, self.global_step, self.trainer)
+            val_image_paths.extend(val_image_batch_paths)
+        if self.current_epoch % 500 == 0 or self.current_epoch == 0:
+            print("Creating Image Right Now")
             val_image_batch_paths = visualize_and_save_valid_3d(imagesV, outputsV, targetsV, batch_idxV, self.current_epoch, self.global_step, self.trainer)
             val_image_paths.extend(val_image_batch_paths)
-        print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")
-        # val_image_batch_paths = visualize_and_save_valid(images, outputs, targets, batch_idx, self.current_epoch, self.global_step, self.trainer)
-        # val_image_paths.extend(val_image_batch_paths)
-        if self.current_epoch % 10 == 0 and self.current_epoch != 0:
-            torch.save(model.state_dict(), "./model/Model.pth")
+        print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")       
+        if self.current_epoch % 100 == 0 and self.current_epoch != 0:
+            torch.save(model.state_dict(), "./model/Nate_JI-1_Model.pth")
         return loss
-    
+      
     def on_epoch_start(self):
         # Print the current epoch number at the start of each epoch
         print(f"Epoch: {self.current_epoch}")
@@ -619,7 +623,7 @@ class UNetModel(pl.LightningModule):
     def on_train_end(self):
         # Print the list of all epochs after training ends
         print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")
-        print(f"Completed Epochs: {self.all_epochs}")
+        # print(f"Completed Epochs: {self.all_epochs}")
 
 
 class PlotLossCallback(pl.Callback):
@@ -629,7 +633,7 @@ class PlotLossCallback(pl.Callback):
 
     def on_train_start(self, trainer, pl_module):
         # Clear previous graphs
-        # tf.compat.v1.reset_default_graph()
+        
         self.writer = SummaryWriter(self.log_dir)
 
     def on_train_epoch_end(self, trainer, pl_module, **kwargs):
@@ -638,14 +642,14 @@ class PlotLossCallback(pl.Callback):
         val_loss = trainer.callback_metrics['val_loss'].cpu().item()
 
         # Write both training and validation loss to the same graph with epoch as global step
-        self.writer.add_scalars('Trial Six Tensorboard', {'training' : train_loss, 
+        self.writer.add_scalars('Lightning JI-4 Tensorboard', {'training' : train_loss, 
                                                    'validation' : val_loss }, global_step=epoch +1 )
     def on_train_end(self, trainer, pl_module):
         self.writer.close()
 
 trainer = Trainer(
     accelerator="gpu", devices=NGPUS,
-    max_epochs=100,
+    max_epochs=3500,
     log_every_n_steps=1,
     callbacks=[
         callbacks.ModelCheckpoint(monitor="val_loss"),
@@ -659,21 +663,18 @@ print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")
 model = UNetModel()
 trainer.fit(model, train_loader, val_loader)
 print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")
-# plot_losses(model.epoch_numbers, train_losses, val_losses)
-# plot_losses_log(model.epoch_numbers, train_losses, val_losses)
 plot_losses(train_losses, val_losses)
 plot_losses_log(train_losses, val_losses)
 plot_learning_rate(learning_rates)
 plot_log_learning_rate(learning_rates)
-# selected_train_images = select_images(train_image_paths)
-# selected_val_images = select_images(val_image_paths)
-# selected_train_images = select_images(train_image_paths)
-# selected_val_images = select_images(val_image_paths)
-# if trainer.global_rank == 0:
-#     # Code here will only be executed by the process with rank 0
-#     print("This is executed only once, by the master process.")
-#     create_word_document(expdesc, selected_train_images, selected_val_images, log_loss_path, learning_rate_path, log_learning_rate_path)
-#     print("gang gang gang gang gang gang gang gang gang gang")
-# # create_word_document(expdesc, selected_train_images, selected_val_images, log_loss_path, learning_rate_path, log_learning_rate_path) #final_time)
-# print("done")
+selected_train_images = select_images(train_image_paths)
+selected_val_images = select_images(val_image_paths)
+selected_train_images = select_images(train_image_paths)
+selected_val_images = select_images(val_image_paths)
+if trainer.global_rank == 0:
+    # Code here will only be executed by the process with rank 0
+    print("This is executed only once, by the master process.")
+    create_word_document(expdesc, selected_train_images, selected_val_images, log_loss_path, learning_rate_path, log_learning_rate_path)
+    print("Results Appended to Work Document")
+print("Done")
 print(f"Elapsed: {(time.time()-starttime)/60:.2f} Minutes")
